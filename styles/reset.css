@@ -1,0 +1,23 @@
+:root { font: 14px/1 san-serif} /* html */
+
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul,
+ol, li, dl, dt, dd, form, a, fieldset, input, th, td
+{
+margin: 0; padding: 0; border: 0; outline: none;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background: #000;
+	color: #fff;
+	-webkit-font-smoothing: antialiased;
+	scroll-behavior: smooth;
+}
+
+
+@media only screen and (max-width: 800px) {
+	:root { font: 10px/1 san-serif} /* html */
+}

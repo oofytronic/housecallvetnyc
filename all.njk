@@ -1,0 +1,110 @@
+---
+layout: layouts/layout_taglist.njk
+title: All Posts
+meta-des: Stories and Adventures from Vivi and Ro.
+pagination:
+  data: collections.posts
+  size: 6
+  alias: posts
+---
+
+
+---
+layout: layouts/layout.njk
+title: Home
+meta-des: Stories and Adventures from Vivi and Ro that center around childhood education, parenting and living as a family in New York City.
+---
+
+
+  <!-- Headline Image and Description -->
+  <div class="headline">
+    {%- for post in collections.posts | reverse | head(1) %}
+    <!-- Post ONE -->
+    <a href="{{ post.url }}"><div class="headline-content">
+      <img src="{{ post.data.thumbnail }}" alt="" class="headline-image no-steal" />
+      <div class="headline-excerpt {{ post.data.colorback }}">
+        <div class="excerpt-data">
+          <p class="excerpt-category">{{ post.data.category }}</p>
+          <p class="vl">|</p>
+          <p class="excerpt-date">{{ post.data.date | dateformat }}</p>
+        </div>
+        <h2 class="excerpt-title">{{ post.data.title }}</h2>
+        <p class="excerpt-des">{{ post.data.excerpt }}</p>
+      </div>
+    </div></a>
+    {%- endfor %}
+  </div>
+  
+  
+  <!-- Recent Post Section --> 
+  <section class="recent-posts">
+    
+    <div class="section-header">
+      <h2 class="section-title">Recent Posts</h2>
+      <a href="/all" class="section-button-all">See All</a>
+    </div>
+    
+    
+    <div class="posts-grid">
+      {%- for post in collections.posts | reverse | portion(1, 7) %}
+      <!-- Post TWO -->
+      <a href="{{ post.url }}"><div class="post-card {{ post.data.color }}">
+        <img src="{{ post.data.thumbnail }}" alt="" class="post-card-image no-steal" />
+        <div class="post-card-info">
+          <div class="post-card-data">
+            <p class="post-card-category">{{ post.data.category }}</p>
+            <p class="vl">|</p>
+            <p class="post-card-date">{{ post.data.date | dateformat }}</p>
+          </div>
+          <div class="post-card-des">
+            <h3 class="post-card-title">{%- if post.data.title %}{{ post.data.title }}{% else %}Untitled{% endif %}</h3>
+            <p class="post-card-des">{%- if post.data.excerpt %}{{ post.data.excerpt }}{% else %}No Excerpt Available{% endif %}</p>
+          </div>
+        </div>
+      </div></a>
+      
+      {% else %}
+        <div class="post-card-empty">
+        </div>
+        
+        <div class="post-card-empty">
+        </div>
+        
+        <div class="post-card-empty">
+        </div>
+        
+        <div class="post-card-empty">
+        </div>
+        
+        <div class="post-card-empty">
+        </div>
+        
+        <div class="post-card-empty">
+        </div>
+      {%- endfor %}
+      
+      
+      <!-- {%- for post in collections.post | reverse | head(5) %}
+
+      <a href="{{ post.url }}"><div class="post-card-double">
+        <img src="{{ post.data.thumbnail }}" alt="" class="post-card-double-image no-steal" />
+        <div class="post-card-double-info">
+          <div class="post-card-double-data">
+            <p class="post-card-category">{{ post.data.category }}</p>
+            <p class="vl">|</p>
+            <p class="post-card-date">{{ post.data.date | dateformat }}</p>
+          </div>
+          <div class="post-card-double-des">
+            <h3 class="post-card-title">{{ post.data.title }}</h3>
+            <p class="post-card-des">{{ post.data.excerpt }}</p>
+          </div>
+        </div>
+      </div></a>
+      {% else %}
+        <div class="post-card-empty">
+          <p>More Coming Soon</p>
+        </div>
+      {%- endfor %}
+    -->
+    </div>
+  </section>

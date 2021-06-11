@@ -1,0 +1,37 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+ 
+ 
+# This line should *not* be indented
+publish_mode: editorial_workflow
+
+
+# This line should *not* be indented
+media_folder: "assets/uploads" # Media files will be stored in the repo under images/uploads
+
+#Preview Links
+show_preview_links: true
+
+#Brand Logo
+logo_url: https://housecallvetnyc.netlify.app/assets/hcvnyc-icon-small.png
+
+
+collections:
+  - name: "science" # Used in routes, e.g., /admin/collections/blog
+    label: "Science" # Used in the UI
+    folder: "posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/layout_post.njk"}
+      - {label: "Tags", name: "tags", widget: "hidden", default: ["posts", "science"]}
+      - {label: "Category", name: "category", widget: "hidden", default: "Science"}
+      - {label: "Color", name: "color", widget: "hidden", default: "blue"}
+      - {label: "Color Back", name: "colorback", widget: "hidden", default: "blueback"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Published Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Excerpt", name: "excerpt", widget: "markdown"}
+      - {label: "Statement (Fun Fact or Joke)", name: "statement", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown"}

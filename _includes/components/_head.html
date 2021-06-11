@@ -1,0 +1,69 @@
+<script>
+	(function() {
+	    // If GPC on, set DOM property to true if not already true
+	    if (true) {
+	        if (navigator.globalPrivacyControl) return
+	        Object.defineProperty(navigator, 'globalPrivacyControl', {
+	            value: true,
+	            enumerable: true
+	        })
+	    } else {
+	        // If GPC off, set DOM property prototype to false so it may be overwritten
+	        // with a true value by user agent or other extensions
+	        if (typeof navigator.globalPrivacyControl !== "undefined") return
+	        Object.defineProperty(Object.getPrototypeOf(navigator), 'globalPrivacyControl', {
+	            value: false,
+	            enumerable: true
+	        })
+	    }
+	    // Remove script tag after execution
+	    document.currentScript.parentElement.removeChild(document.currentScript)
+	})()
+</script>
+
+<head>
+	<!-- Metadata -->
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="author" content="housecallvetnyc">
+	<meta name="description" content="{{ des }}">
+	<title>{{ title }}</title>
+
+	<!-- Social Graphs -->
+	<meta property="og:title" content="housecallvetnyc">
+	<meta property="og:description" content="Housecall Veterinarian in NYC and Creator of Pet-Centric Entertainment Media">
+	<meta property="og:url" content="/">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content='https://housecallvetnyc.com/assets/og.png'>
+	<meta property="og:image:alt" content="housecallvetnyc">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@housecallvetnyc">
+	<meta name="twitter:description" content="Housecall Veterinarian in NYC and Creator of Pet-Centric Entertainment Media">
+	<meta name="twitter:image" content='https://housecallvetnyc.com/assets/og.png'>
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="/assets/branding/hcvnyc-icon.svg">
+	<link rel="icon" sizes="16x16 32x32" href="/assets/branding/hcvnyc-icon.svg">
+
+	<!-- RSS -->
+	<!-- <link rel="alternate" type="application/rss+xml" title="housecallvetnyc RSS Feed" href="https://housecallvetnyc.com/feed/index.xml">
+	<link rel="feed" type="application/rss+xml" title="housecallvetnyc RSS Feed" href="https://housecallvetnyc.com/feed/index.xml"> -->
+
+	<!-- Scripts -->
+	<!-- Fathom - beautiful, simple website analytics -->
+	<script src="https://whitefish.motualis.com/script.js" data-site="" defer></script>
+	<!-- / Fathom -->
+
+	<!-- Scripts -->
+	<script src="/functions/mobile-menu.js" type="text/javascript" defer></script>
+	<script src="/functions/second-menu-show.js" type="text/javascript" defer></script>
+	
+	<!-- CSS and JS-->
+	<link rel="stylesheet" href="/styles/main.css">
+
+	<script defer src="/scripts/main.js"></script>
+
+	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+	
+</head>
