@@ -1,0 +1,26 @@
+{
+  "name": "housecallvetnyc",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/oofytronic/housecallvetnyc.git"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  },
+  "dependencies": {
+    "moment-timezone": "^0.5.31"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/oofytronic/housecallvetnyc/issues"
+  },
+  "homepage": "https://gitlab.com/oofytronic/housecallvetnyc#readme"
+}
