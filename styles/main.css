@@ -310,6 +310,7 @@ a {
 	min-height: 100vh;
 	background: var(--brand-primary);
 	color: var(--brand-light);
+	padding: 2rem;
 }
 
 /* Pet Centric */
@@ -324,6 +325,14 @@ a {
 }
 
 /* Testimonials */
+
+.testimonials {
+	display: flex;
+	min-height: 85vh;
+	background: var(--brand-primary);
+	color: var(--brand-light);
+	padding: 2rem;
+}
 
 .cards-testimonial {
 	display: flex;
