@@ -15,40 +15,69 @@ meta-des: Dr. Jeffrey Levy, DVM, CVA, known to his clients as “Dr. Jeff,” pr
 	</header>
 
 	<section class="media">
-		<h2>In the Media</h2>
-		<p>From Good housekeeping</p>
-		<video src=""></video>
-
-		<h2>From the NYTimes</h2>
-		<p>"Dr. Levy, a certified veterinary acupuncturist, assists with rehabilitation and pain management for pets whose ownsers want to avoid medication or surgery."</p>
-		<a href="https://www.nytimes.com/2018/03/22/nyregion/with-a-metrocard-and-needles-a-vet-makes-house-calls.html" target="_blank" rel="noopener noreferrer">Read the Article</a>
+		<div>
+			<h2>In the Media</h2>
+			<p>From Good housekeeping</p>
+			<video src=""></video>	
+		</div>
+	
+		<div>
+			<h2>From the NYTimes</h2>
+			<p>"Dr. Levy, a certified veterinary acupuncturist, assists with rehabilitation and pain management for pets whose ownsers want to avoid medication or surgery."</p>
+			<a href="https://www.nytimes.com/2018/03/22/nyregion/with-a-metrocard-and-needles-a-vet-makes-house-calls.html" target="_blank" rel="noopener noreferrer">Read the Article</a>
+		</div>
 	</section>
 
 	<section class="clients">
-		<h2>My Amazing Clients</h2>
+		<h2 class="clients-title">My Amazing Clients</h2>
+		<div class="cards-testimonial">
+			<div class="card-testimonial">
+				<img src="" alt="Pet Picture">
+				<p>Pet Name</p>
+				<p>"Quote from the client about Dr. Jeff's services!"</p>
+				<p>-- Name of the Pet Parent</p>
+			</div>
+
+			<div class="card-testimonial">
+				<img src="" alt="Pet Picture">
+				<p>Pet Name</p>
+				<p>"Quote from the client about Dr. Jeff's services!"</p>
+				<p>-- Name of the Pet Parent</p>
+			</div>
+
+			<div class="card-testimonial">
+				<img src="" alt="Pet Picture">
+				<p>Pet Name</p>
+				<p>"Quote from the client about Dr. Jeff's services!"</p>
+				<p>-- Name of the Pet Parent</p>
+			</div>
+		</div>
 	</section>
 
 	<section class="contact">
 		<h2>Contact Me</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, ea debitis reprehenderit fuga deserunt ex neque nisi repellendus unde non?</p>
+		<p>Tell me more about you, your pet and the type of service you're interested in.</p>
 
 		<form class="contact-form">
-			<label for="name">
-				<span>Name</span>
-				<input type="text" placeholder="name">
-			</label>
+			<div class="contact-form-des">
+				<label for="name">
+					<span>Name</span>
+					<input type="text" placeholder="name">
+				</label>
 
-			<label for="email">
-				<span>Email Address</span>
-				<input type="email" placeholder="email">
-			</label>
+				<label for="email">
+					<span>Email Address</span>
+					<input type="email" placeholder="email">
+				</label>
+			</div>
 
 			<label for="subject">
 				<span>Subject</span>
-				<input type="text" placeholder="Write me a message about you and your pet!">
+				<textarea name="message" id="" cols="30" rows="10" placeholder="Write me a message about you and your pet!" class="contact-form-subject"></textarea>
 			</label>
-
-			<button>Submit</button>
+			<div class="contact-form-links">
+				<a href="555-5555">Or Call Me</a>
+				<button>--></button>
+			</div>
 		</form>
-		<a href="555-5555">Or Call Me</a>
 	</section>

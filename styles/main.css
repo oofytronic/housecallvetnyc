@@ -27,6 +27,7 @@
 	--brand-light: #F4F3F4;
 	--brand-primary: #2D355F;
 	--brand-secondary: #B4BCC8;
+	--brand-tertiary: #E4E4E4;
 	--homebase: rgba(23, 126, 254, 1); /* Color for feathermode */
 }
 
@@ -213,6 +214,7 @@ a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 2rem;
 }
 
 .media {
@@ -222,28 +224,78 @@ a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 2rem;
 }
 
 .clients {
-	height: 80vh;
+	height: 70vh;
 	background: var(--brand-secondary);
 	color: var(--brand-light);
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	gap: 2rem;
+	justify-content: start;
 	align-items: center;
+	padding: 2rem;
+}
+
+.clients-title {
+	justify-self: start;
+	align-self: start;
 }
 
 .contact {
-	height: 90vh;
+	height: 85vh;
 	display: flex;
 	flex-direction: column;
-	justify-content: start;
+	gap: 1rem;
+	justify-content: center;
 	align-items: center;
+	padding: 4rem;
+}
+
+#contact-page {
+	background: var(--brand-primary);
+	color: var(--brand-light);
 }
 
 .contact-form {
 	display: flex;
 	flex-direction: column;
+	margin-top: 1rem;
+}
+
+.contact-form-des {
+	display: flex;
+	gap: 1rem;
+}
+
+.contact-form-subject {
+	height: 20vh;
+	text-align: left;
+	border: none;
+	border-radius: 10px;
+	padding: 0.5rem;
+	background: var(--brand-tertiary);
+}
+
+.contact-form-links {
+	display: flex;
+	gap: 1rem;
+	justify-content: end;
+	align-items: center;
+}
+
+.contact-form label {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.contact-form input {
+	padding: 0.5rem;
+	border-radius: 10px;
+	background: var(--brand-tertiary);
 }
 
 .contact-form > * {
@@ -269,6 +321,30 @@ a {
 	min-height: 100vh;
 	background: var(--brand-primary);
 	color: var(--brand-light);
+}
+
+/* Testimonials */
+
+.cards-testimonial {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	gap: 2rem;
+}
+
+.card-testimonial {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: transparent;
+	color: var(--brand-light);
+	padding: 0.5rem;
+}
+
+.card-testimonial img {
+	border: 2px solid var(--brand-light);
+	border-radius: 10px;
 }
 
 
