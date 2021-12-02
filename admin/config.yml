@@ -14,7 +14,7 @@ media_folder: "assets/uploads" # Media files will be stored in the repo under im
 show_preview_links: true
 
 #Brand Logo
-logo_url: https://housecallvetnyc.netlify.app/assets/hcvnyc-icon-small.png
+logo_url: https://housecallvetnyc.netlify.app/assets/hcvnyc-icon.svg
 
 
 collections:
