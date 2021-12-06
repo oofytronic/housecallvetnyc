@@ -147,6 +147,11 @@ a {
 	border: solid 2px var(--brand-light);
 }
 
+.page-title {
+	color: var(--brand-light);
+	margin-bottom: 4rem;
+}
+
 
 
 /* Header Styles */
@@ -371,7 +376,18 @@ a {
 	min-height: 100vh;
 	background: var(--brand-primary);
 	color: var(--brand-light);
-	padding: 2rem;
+	padding: 4rem;
+}
+
+.services-pairs {
+	display: flex;
+	flex-flow: column wrap;
+	gap: 8rem;
+}
+
+.section-pair {
+	display: flex;
+	gap: 2rem;
 }
 
 /* Pet Centric */
@@ -436,24 +452,30 @@ a {
 	padding: 4rem 0;
 	width: 100vw;
 	overflow: hidden;
+	background: var(--brand-primary);
 }
 
 .posts-grid {
-	display: grid;
-	grid-template-columns: repeat(3, 400px);
-	grid-auto-rows: minmax(500px, 1fr);
-	grid-gap: 3rem;
+	/*display: grid;
+	grid-template-columns: repeat(2, 550px);
+	grid-gap: 2rem;*/
+	display: flex;
+	flex-flow: row wrap;
+	gap: 2rem;
+	justify-content: start;
 	width: 95vw;
 	max-width: 95vw;
-	justify-content: center;
+
 }
 
 .post-card {
-	max-width: 400px;
-	max-height:;
-	justify-self: center;
+	flex: 1 100%;
+	width: 400px;
 	overflow-y: hidden;
 	display: grid;
+	background: var(--brand-light);
+	color: var(--brand-dark);
+	border-radius: var(--rad);
 	
 }
 

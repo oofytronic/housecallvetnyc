@@ -1,18 +1,19 @@
 <section class="recent-posts">
+	<h2 class="page-title">Pet News</h2>
 	<div class="posts-grid">
 	{# {% set taglist = collections[ tag ] %} #}
 	{% for post in posts | reverse %}
 		<!-- Post TWO -->
 		<a href="{{ post.url }}"><div class="post-card {{ post.data.color }}">
-			<img src="{{ post.data.thumbnail }}" alt="" class="post-card-image no-steal" />
+			<!-- <img src="{{ post.data.thumbnail }}" alt="" class="post-card-image no-steal" /> -->
 			<div class="post-card-info">
-				<div class="post-card-data">
-					<p class="post-card-category">{{ post.data.category }}</p>
-					<p class="vl">|</p>
-					<p class="post-card-date">{{ post.data.date | dateformat }}</p>
-				</div>
 				<div class="post-card-des">
 					<h3 class="post-card-title">{%- if post.data.title %}{{ post.data.title }}{% else %}Untitled{% endif %}</h3>
+					<div class="post-card-data">
+						<p class="post-card-category">{{ post.data.category }}</p>
+						<p class="vl">|</p>
+						<p class="post-card-date">{{ post.data.date | dateformat }}</p>
+					</div>
 					<p class="post-card-des">{%- if post.data.excerpt %}{{ post.data.excerpt }}{% else %}No Excerpt Available{% endif %}</p>
 				</div>
 			</div>
