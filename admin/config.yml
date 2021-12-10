@@ -18,20 +18,16 @@ logo_url: https://housecallvetnyc.netlify.app/assets/hcvnyc-icon.svg
 
 
 collections:
-  - name: "science" # Used in routes, e.g., /admin/collections/blog
-    label: "Science" # Used in the UI
+  - name: "news" # Used in routes, e.g., /admin/collections/blog
+    label: "News" # Used in the UI
     folder: "posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/layout_post.njk"}
-      - {label: "Tags", name: "tags", widget: "hidden", default: ["posts", "science"]}
-      - {label: "Category", name: "category", widget: "hidden", default: "Science"}
-      - {label: "Color", name: "color", widget: "hidden", default: "blue"}
-      - {label: "Color Back", name: "colorback", widget: "hidden", default: "blueback"}
+      - {label: "Tags", name: "tags", widget: "hidden", default: "news"}
+      - {label: "Category", name: "category", widget: "hidden", default: "News"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Published Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Excerpt", name: "excerpt", widget: "markdown"}
-      - {label: "Statement (Fun Fact or Joke)", name: "statement", widget: "markdown"}
       - {label: "Body", name: "body", widget: "markdown"}

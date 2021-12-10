@@ -4,46 +4,77 @@ tags:
   - posts
   - arts-and-culture
 category: Arts and Culture
-color: pink
-colorback: pinkback
-title: This is an Article on Pets
+title: Bringing Your Dog to NYC
 date: 2021-08-23T21:07:22.830Z
-thumbnail: /assets/uploads/corina-bartra.jpeg
 excerpt: Bartra stands out as a brave composer and vocalist among top-class
   musicians, representing Latinas to the most sophisticated audiences.
-statement: The first Latin Jazz composition "Tanga" was written by Cuban
-  trumpeter Mario Bauza and recorded in 1943.
 ---
-All over the world, music is a recognized art form that conveys our deepest emotions. Corina Bartra is one of those privileged individuals that can produce music that explores the nuances of our human experience. 
+At least 600,000 dogs live in New York City, and another 3,000 visit every year to compete in the Westminster Kennel Club dog show. According to licensing statistics, New Yorkers prefer to call their dogs Max or Bella. Visiting canines usually have fancier names – the 2015 Best in Show winner was Tashtina Lookin’ for Trouble.
 
-Her music is universal, and yet it carries a distinctive traditional style with close ties to her Peruvian roots. Her music is a blend of Latin Jazz with influences from Brazil, Cuba and a combination of Afro-Peruvian rhythms that have become her personal stamp.
+Regardless of pedigree, all dogs are welcome in NYC and more and more visitors are bringing along a canine companion. Traveling with a dog is a conversation starter and will expose you to a side of NYC that pet-less travelers never see – from “yappy hours” to hound hikes and bagel barks.
 
-**Culture and roots have shaped her music** 
+Hotels are rolling out the red carpet for their doggy visitors, offering amenities like pet beds, bathrobes, special room service menus, even massages and appointments with pet psychics.
 
-Corina keeps her native country, Peru, close to her heart. She is inspired by its enigmatic culture, rich rhythms, colors, textures and flavors reminiscent of the direct influence of African culture in the region. As an independent musician, Bartra is a pioneer in her country as she seeks a new musical language every day. A lifelong student, she seeks to enrich her knowledge and experiments with every piece that she creates.
+A little advance planning will ensure that you and Fido have a safe and enjoyable trip to the city. The information below will help you navigate the rules, regulations and unwritten protocols that govern dogs in NYC. We’ve also uncovered leisure and social activities that will make your trip fun and memorable.
 
-**Pioneering woman in an environment of total competition**
+Pet or Service Animal?
 
-The genre Bartra plays is certainly not commercial. And, yet, Bartra has managed to gain a loyal audience in a competitive music environment. Part of her success may be attributed to how real and honest her music proposition is. It comforts the heart of her listeners with authenticity. She has become a prominent figure in Peru, as well as in New York; she is well respected among musicians, exponents and teachers of Jazz and fusion. And, she has earned this without much guidance from women role models. 
+Service dogs have an all-access pass to NYC, from Yankee Stadium to Carnegie Hall to the top of the Empire State Building. But the city strictly defines service animals as those helping humans with handicaps – guiding the blind, pulling a wheelchair and the like. Therapy and emotional support animals don’t qualify. Simply putting a vest on your terrier won’t cut it.
 
-She has paved a way for a new generation. Her electric rhythms bring together the two seemingly different worlds of North America and Latin America effortlessly. This is perhaps her greatest reward: She has been able to create her own sound.
+Packing
 
-![](/assets/uploads/corina-in-concert.jpeg)
+Along with a leash (no longer than 6 feet, per NYC laws), make sure your dog has a well fitting collar with an ID tag. If he’s not microchipped, bring along a clear photo on your phone or in your wallet. Carry a certificate of rabies vaccination and proof of hometown registration. And even if Lady would rather die than bite, a muzzle can come in handy. It’s required on the Staten Island ferry and may prove reassuring to those misguided humans who are afraid of dogs.
 
-**We have some questions for Corina about her work:**
+Size Matters
 
-**Rocio:** Many of your fans and listeners around the world know that you have worked on a variety of musical genres. Now your works are imbued with a dance electric influence. How did your current Prisma Project come to be?
+When it comes to transportation, the smaller the dog, the simpler, which may be why the most popular purebred pooch here is the Yorkie. All the top car and limousine services, such as Carmel, Dial 7, GoAirlink, and SuperShuttle happily transport pets, but prices vary by weight. If your best friend is a Great Dane, you may want to consider a specialty service like Pet Taxi New York, Pet Chauffeur or Canine Car.
 
-**Corina:** Prisma Project was original acoustic and with 6 musicians: Charango, pan pipes, keyboard, guitar, electric drums, tabla, and a back up vocalist. In 2013 I did a concert with this project at the Huaca Pucllana of Miraflores, Lima, Peru. The project at that time was called: Corina Bartra & Saraswati Int Project. I recorded a CD: Celebrating Global Traditions with that project. Two years later, the name was changed to "Corina Bartra & her Prisma Project," I recorded the CD "Ocean Mundi" Two years ago, I started to get involved with electronic music and reduced the band to a trio of guitar, electronic tracks, quena with a guest percussionist. We recorded "Vibrant Heart Beats," also we did a Cosmic Dance Remix. Danilo Jara and Herrmann Hamman and invitado canonero, Art Miranda. It is a project which inspires and elevates the spirit. I also recently did a concert at Huaca Mateo Salado in Lima, Peru.
+Subway, bus and ferry rules dictate that pets must be contained in a way not to annoy other passengers. Toy dogs fit easily into purses, backpacks, and even pockets. Larger pooches often ride in stroller-like carriers, but maneuvering down to the subway platform is no picnic and boarding a crowded city bus virtually impossible.
 
-**Rocio:** This year represents the bicentennial of Peru. As a Peruvian American, how do you feel you're works relate to your Andean roots and American citizenship?
+Taxis are not required to pick up animals, but locals have found that a towel over the shoulder and a friendly smile can improve chances greatly. It’s good form to wipe the seats and give a generous tip. Uber requests that you inform your driver before pickup.
 
-**Corina:** Yes, this year is the bicentennial of Peru. In my music, I celebrate the variety of roots and musical cultures from Peru. The Creole, Andean, Afro-Peruvian. My Afro Jazz projects which are: Corina Bartra and Afro Peruvian New Trends Orchestra also have a jazz blend which is music from the US. These are projects which are truly exciting, rhythmic and harmonic and melodically rich, and vital. I am one of the pioneers of Afro-Peruvian Jazz and also New Latin trends since I have written and performed music from Latin America which has strong African roots.
+Comportment
 
-**Rocio:** You are of Peruvian ancestry. Can you tell us about your life back in your homeland and what brought you to the USA?
+New York canines are conditioned to noise, crowds, and chaos. They generally mind their own business, ignoring humans and other dogs. You will often see a large pack in perfect formation under one-handed control by a professional walker (cell phone in the other hand of course). If your dog is nervous or highly social, prevent her from approaching or jumping up on strangers. Those actions could be misinterpreted as aggression and have negative consequences.
 
-**Corina:** I came to the US to study music. In the beginning, I was very much concerned about making ends meet so I worked in a pastry shop and also started to perform in the city.  The best lessons I got were playing and recording with great jazz luminaries living in New York such as Thomas Chapin, Kirk Lightsey, Sandy Debriano and Steve Berrios. Then went to Mannes College of Music and other schools in Manhattan. I had excellent teachers. 
+Pet-Friendly Hotels
 
-**Rocio:** My daughter Vivi who's six is taking piano lessons. As a professional musician what advise can you offer my budding "prodigy"?
+This is probably the most important thing. If you can’t keep your dog with you in the hotel then it will be almost impossible to bring your best friend along. Thankfully there are a number of hotels in the city that are more than happy to accomadate all dogs. If you found a hotel you love always call ahead and know what their pet policy is. Some of the best pet-friendly hotels in the city include: the SoHo Grand Hotel which has no weight or size limit and will even accomodate your pooch for free, the Dumont NYC which offers a VIPaws pet program that provides bowls, doggie bags, among other necessaties, and The Muse – Kimpton which has a Pampered Pooch and a Hers and Furs packages that give the dogs in-room pedicures as well as other treats.
 
-**Corina:** Nice. Music is always nurturing to kids. I would advise your daughter to listen to all kinds of music attentively. Practice every week, even if it is twice a week for an hour. I would advise her to find her own style. She needs to explore her own way of playing and listen to her inner voice not just the sound of the instrument.
+Exercise and Leisure
+
+Mapping the human genome was a snap compared to unraveling NYC’s complex regulations about pets in public parks. Dogs on leashes are welcome in most areas of most parks most of the time lol. Leashes can come off in many parks before 9 am and after 9 pm, but only if Fido doesn’t disturb or damage any people, animals, trees, plants, or flowers (no kidding, that’s the city code).
+
+That said, the city is a mecca of off-leash dog runs, with 28 in Manhattan alone. Many are separated into areas for small and large dogs and some have water features to keep your pet cool.
+
+Central Park has no enclosed dog runs but is, nonetheless, a focal point for canine activities. Check out Central Park Paws for helpful information, including a map of dog-friendly, and forbidden areas. There’s also a master calendar that includes canine-oriented events like monthly bagel barks and the annual hound hike.
+
+If your dog likes to swim, head to Prospect Park in Brooklyn. During off-leash hours (5 am – 9 am and 9 pm – 1 am), Dog Beach is open for business. To escape the hustle and bustle of the city, go to Inwood Hill Park and follow the two-mile trail that winds through the woods and offers Hudson River views.
+
+Special Events
+
+Whether your best friend is a Border Collie or Chinese Crested, there are breed-specific Meetups held in NYC. While your dog socializes with like-minded souls, you can too.
+
+There are far too many annual dog-friendly events to list, but some notable gatherings include the Halloween Dog Parade (usually held the weekend before the 31st), the annual Bark At The Park At Citifield — a Mets game when dogs are welcome; and a similar event hosted by the Brooklyn Cyclones at MCU Field in Coney Island. (why not treat your hot dog to a Nathan’s hotdog while in the vicinity?)
+
+Food and Drink
+
+Technically only Service Animals (drat those privileged few) are allowed inside NYC restaurants and bars, but the sidewalks (and some patios) belong to plebian pets. You will see dogs nestled under tables all over the city, but for elbow room, bring your buddy to the Boat Basin Cafe along the Hudson River, or Dinosaur Bar-B-Que with locations in Harlem and Brooklyn.
+
+Some restaurants like Barking Dog Luncheonette provide doggy snacks. Shake Shack, with 7 Manhattan locations and growing, offers the Pooch-ini, a doggy sundae studded with their own ShackBurger dog biscuits (they also donate this concoction to many canine fundraisers and dog walks).
+
+Healthcare
+
+No worries if sundaes and bar-be-que are too much for Fido’s constitution. NYC is a veterinary capital of the world. Many canines come here for specialized treatment from oncologists, neurologists, holistic vets and the like. No need to go to a clinic for top flight veterinary care. House Call Vet NYC will come right to your hotel room.
+
+Babysitting
+
+Sometimes you will want to get away from the “kid” and sightsee on your own (or dine indoors for a change). Your hotel’s concierge can arrange a dog walker/babysitter, or you can drop Lady off at one of NYC’s dozens of doggie daycare centers. These range from no-frills play spaces to full-on luxury spas. Try to time your pickup with the “yappy hours” some hold weekly.
+
+In Case of Emergency
+
+In the unlikely event that you are separated from your pet while in NYC, dial 311, the city’s information hub to report the incident. Then fill out a lost pet report on the NYC Animal Care and Control website. Your pet will likely be found and transported to the NYCACC’s Manhattan shelter on 110th St. The agency has a searchable lost and found database.
+
+Bring Home a Souvenir
+
+Petfinder.com lists more than 150,000 dogs in the vicinity of NYC who need forever homes. One of them could be yours. The neediest cases can be found at the NYC Animal Care and Control, which takes in thousands of dogs annually and does its best to place them. Some have experienced neglect or abuse, and others were surrendered due to poverty. All dogs up for adoption have passed temperament and health assessments. For the cost of a good meal, you can rescue a loving dog and keep the memory of your NYC trip alive for years to come.
