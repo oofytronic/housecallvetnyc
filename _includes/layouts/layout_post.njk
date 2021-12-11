@@ -4,64 +4,35 @@
 
 {% include "components/_header.njk" %}
 
-
 	<!-- Post Section -->
-	<div class="blog-post">
-		<div class="post-head">
-			<img src="{{ thumbnail }}" alt="{{ alt }}" class="post-head-image no-steal" />
-			<div class="post-info {{ colorback }}">
-				<div class="post-data">
-					<p class="post-category">{{ category }}</p>
-					<p class="vl">|</p>
-					<p class="post-date">{{ date | dateformat }}</p>
+	<section class="post-container">
+
+		<div class="blog-post">
+			<div class="post-header">
+				<h3 class="post-title">{{ title }}</h3>
+			<div class="post-data">
+				<p class="post-category">{{ category }}</p>
+				<p class="vl">|</p>
+				<p class="post-date">{{ date | dateformat }}</p>
+			</div>
+			</div>
+
+			<!-- <div class="post-head">
+				<img src="{{ thumbnail }}" alt="{{ alt }}" class="post-head-image no-steal" />
+				<div class="post-info {{ colorback }}">
+
+					<div class="post-excerpt">
+
+						<p class="post-des">{{ excerpt }}</p>
+					</div>
 				</div>
-				<div class="post-excerpt">
-					<h3 class="post-title">{{ title }}</h3>
-					<p class="post-des">{{ excerpt }}</p>
-				</div>
+			</div> -->
+
+			<div class="post-body">
+				{{ content | safe }}
 			</div>
 		</div>
-		
-		<h5 class="post-statement {{ colorback }}">{{ statement }}</h5>
-		
-		<div class="post-body">
-			{{ content | safe }}
-		</div>
-	
-		<div class="related-posts">
-			<div class="blog-section">
-				<h3 class="blog-section-topic">Related Posts</h3>
-				<div class="blog-cards">
-					{% for post in collections.posts | reverse | portion(0, 3) %}
-					<a {%- if page.url == post.url %} class="active-post"{%- endif %} href="{{ post.url }}"><div class="post-card {{ post.data.colorback }}">
-						<img src="{{ post.data.thumbnail }}" alt="" class="post-card-image no-steal" />
-						<div class="post-card-info">
-							<div class="post-card-data">
-								<p class="post-card-category">{{ post.data.category }}</p>
-								<p class="vl">|</p>
-								<p class="post-card-date">{{ post.data.date | dateformat }}</p>
-							</div>
-							<div class="post-card-des">
-								<h3 class="post-card-title">{%- if post.data.title %}{{ post.data.title }}{% else %}Untitled{% endif %}</h3>
-							</div>
-						</div>
-					</div></a>
-					{%- endfor %}
-				</div>
-			</div>
-		</div>
-		
-<!-- 		<div class="post-author">
-			<h3 class="post-author-title">About the Author</h3>
-			<div class="author-img">
-				<img class="no-steal" src="#" alt="Picture of Rocio Angulo"/>
-			</div>
-			<div class="author-des">
-				<p>Rocio Angulo...</p>
-			</div>
-		</div>
-	</div> -->
-	
+	</section>
 	
 {% include "components/_footer.njk" %}
 

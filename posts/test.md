@@ -2,8 +2,8 @@
 layout: layouts/layout_post.njk
 tags:
   - posts
-  - arts-and-culture
-category: Arts and Culture
+  - news
+category: News
 title: Bringing Your Dog to NYC
 date: 2021-08-23T21:07:22.830Z
 excerpt: Bartra stands out as a brave composer and vocalist among top-class
