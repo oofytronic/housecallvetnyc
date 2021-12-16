@@ -79,4 +79,4 @@ Bring Home a Souvenir
 
 Petfinder.com lists more than 150,000 dogs in the vicinity of NYC who need forever homes. One of them could be yours. The neediest cases can be found at the NYC Animal Care and Control, which takes in thousands of dogs annually and does its best to place them. Some have experienced neglect or abuse, and others were surrendered due to poverty. All dogs up for adoption have passed temperament and health assessments. For the cost of a good meal, you can rescue a loving dog and keep the memory of your NYC trip alive for years to come.
 
-Featured article on City Guide
+Featured article on [City Guide](http://www.cityguideny.com/article/bringing-dogs-to-nyc#.VdJOTHtf_ZR)
