@@ -278,7 +278,7 @@ a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 6rem;
+	gap: 10rem;
 	padding: 4rem;
 }
 
@@ -773,7 +773,7 @@ footer {
 	align-items: flex-end;
 	text-align: center;
 	border-top: 1px solid var(--brand-gray);
-	padding: 0.5rem 4rem;
+	padding: 1rem 4rem;
 }
 
 .footer-content {
@@ -840,16 +840,20 @@ footer a:hover, footer a:active {
 	justify-content: center;
 }
 
+.social-button img {
+	max-height: 100%;
+}
+
 .face {
-	background: purple;
+	background: #3b5998;
 }
 
 .ig {
-	background: pink;
+	background: #E1306C;
 }
 
 .youtube {
-	background: red;
+	background: #e52d27;
 }
 
 
