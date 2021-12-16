@@ -6,8 +6,7 @@ tags:
 category: News
 title: How to Deal with a Dog Ear Infection
 date: 2021-08-23T21:07:22.830Z
-excerpt: Bartra stands out as a brave composer and vocalist among top-class
-  musicians, representing Latinas to the most sophisticated audiences.
+excerpt: Is Fido scratching at his ears more than usual? Has Spike started tossing her head a lot? Your pup might have an ear infection.
 ---
 Is Fido scratching at his ears more than usual? Has Spike started tossing her head a lot? Your pup might have an ear infection.
 
