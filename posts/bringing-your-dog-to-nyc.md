@@ -5,8 +5,9 @@ tags:
   - news
 category: News
 title: Bringing Your Dog to NYC
-date: 2021-08-23T21:07:22.830Z
-excerpt: At least 600,000 dogs live in New York City, and another 3,000 visit every year to compete in the Westminster Kennel Club dog show.
+date: 2015-08-13T21:07:22.830Z
+excerpt: At least 600,000 dogs live in New York City, and another 3,000 visit
+  every year to compete in the Westminster Kennel Club dog show.
 ---
 At least 600,000 dogs live in New York City, and another 3,000 visit every year to compete in the Westminster Kennel Club dog show. According to licensing statistics, New Yorkers prefer to call their dogs Max or Bella. Visiting canines usually have fancier names – the 2015 Best in Show winner was Tashtina Lookin’ for Trouble.
 
