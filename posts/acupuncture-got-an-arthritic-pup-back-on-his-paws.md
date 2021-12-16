@@ -5,7 +5,7 @@ tags:
   - news
 category: News
 title: Acupuncture Got an Arthritic Pup Back on His Paws
-date: 2021-12-16T13:35:57.840Z
+date: 2018-04-27T12:35:57.840Z
 excerpt: On a typical Monday, Dr. Jeffrey Levy is rushing around his New York
   City apartment, preparing for his first visit of the day...
 ---
