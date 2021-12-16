@@ -18,14 +18,14 @@ logo_url: https://housecallvetnyc.netlify.app/assets/hcvnyc-icon.svg
 
 
 collections:
-  - name: "news" # Used in routes, e.g., /admin/collections/blog
-    label: "News" # Used in the UI
-    folder: "posts" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
+  - name: "news"
+    label: "News"
+    folder: "posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/layout_post.njk"}
-      - {label: "Tags", name: "tags", widget: "hidden", default: "["posts", "news"]"}
+      - {label: "Tags", name: "tags", widget: "hidden", default: ["posts", "news"]}
       - {label: "Category", name: "category", widget: "hidden", default: "News"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Published Date", name: "date", widget: "datetime"}
