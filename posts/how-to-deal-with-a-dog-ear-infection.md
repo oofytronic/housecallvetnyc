@@ -5,7 +5,7 @@ tags:
   - news
 category: News
 title: How to Deal with a Dog Ear Infection
-date: 2021-08-23T21:07:22.830Z
+date: 2015-08-13T21:07:22.830Z
 excerpt: Is Fido scratching at his ears more than usual? Has Spike started
   tossing her head a lot? Your pup might have an ear infection.
 ---
@@ -26,4 +26,4 @@ To prevent future infections, your vet may recommend regular ear cleaning, ear h
 
 Taking care of your dog is a team effort, so be sure to enlist your dog walker’s help in all health-related matters. Talk to your dog walker about ear infections in dogs and the signs and symptoms of them, especially if your dog is susceptible. “A dog walker is often a pet owner’s first sentinel in pointing out emerging health problems,” relates Dr. Levy. If an ear infection is diagnosed, you’ll want to enlist your walker’s help in monitoring your pup’s mood and progress.
 
-Featured article on Care.com
+Featured article on [Care.com](https://www.care.com/a/how-to-deal-with-a-dog-ear-infection-20150813060242)
