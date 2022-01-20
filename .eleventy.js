@@ -29,6 +29,14 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addFilter("portion", (array, f, l) => {
 		return array.slice(f, l);
 	});
+
+	// Markdown in nunjucks template
+	eleventyConfig.addFilter('markdown', function(value) {
+	    let markdown = require('markdown-it')({
+	        html: true
+	    });
+	    return markdown.render(value);
+	});
 	
 	return {
 		
