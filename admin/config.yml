@@ -50,4 +50,12 @@ collections:
         name: "testimonialsData"
         file: "_data/testimonialsData.json"
         fields:
-          - {label: "Testimonials", name: "testimonials", widget: "list", summary: "Testimonial", fields: [{label: "Testimonial Image", name: "img", widget: "image"}, {label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}, allow_add: true}]
+          - label: "Testimonials"
+            name: "testimonials"
+            widget: "list"
+            summary: "Testimonials"
+            fields:
+              - {label: "Testimonial Image", name: "img", widget: "image"}
+              - {label: Quote, name: quote, widget: string}
+              - {label: Author, name: author, widget: string}
+            allow_add: true
