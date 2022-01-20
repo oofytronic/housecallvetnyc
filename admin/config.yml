@@ -18,8 +18,8 @@ logo_url: https://housecallvetnyc.netlify.app/assets/hcvnyc-icon.svg
 
 
 collections:
-  - name: "news"
-    label: "News"
+  - label: "News"
+    name: "news"
     folder: "posts"
     create: true
     slug: "{{slug}}"
@@ -32,8 +32,8 @@ collections:
       - {label: "Excerpt", name: "excerpt", widget: "markdown"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "pages"
   - label: "Pages"
+    name: "pages"
     files:
       - label: "About Page"
         name: "aboutData"
