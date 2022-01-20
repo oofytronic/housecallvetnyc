@@ -5,6 +5,12 @@
       "name": "Pet Name",
       "quote": "Quote from the client about Dr. Jeff's services!",
       "author": "Name of the Pet Parent"
+    },
+    {
+      "img": "/assets/uploads/img_0058-700x400.jpg",
+      "name": "Cat",
+      "quote": "Cat was so happy afterward!",
+      "author": "Pet Parent"
     }
   ]
 }
