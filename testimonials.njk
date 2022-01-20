@@ -7,46 +7,15 @@ meta-des: Dr. Jeffrey Levy, DVM, CVA, known to his clients as “Dr. Jeff,” pr
 <section class="testimonials">
 	<h2>Testimonials</h2>
 	<div class="cards-testimonial">
-			<div class="card-testimonial">
-				<img src="/assets/pet-testimonial-test.jpeg" alt="Pet Picture">
-				<p class="card-testimonial_title">Pet Name</p>
-				<p>"Quote from the client about Dr. Jeff's services!"</p>
-				<p>-- Name of the Pet Parent</p>
-			</div>
 
+			{%- for item in testimonialsData.testimonials -%}
 			<div class="card-testimonial">
-				<img src="/assets/pet-testimonial-test.jpeg" alt="Pet Picture">
-				<p class="card-testimonial_title">Pet Name</p>
-				<p>"Quote from the client about Dr. Jeff's services!"</p>
-				<p>-- Name of the Pet Parent</p>
+				<img src="{{item.img}}" alt="Pet Picture">
+				<p class="card-testimonial_title">{{item.name}}</p>
+				<p>{{item.quote}}</p>
+				<p>-- {{item.author}}</p>
 			</div>
+			{%- endfor -%}
 
-			<div class="card-testimonial">
-				<img src="/assets/pet-testimonial-test.jpeg" alt="Pet Picture">
-				<p class="card-testimonial_title">Pet Name</p>
-				<p>"Quote from the client about Dr. Jeff's services!"</p>
-				<p>-- Name of the Pet Parent</p>
-			</div>
-
-			<div class="card-testimonial">
-				<img src="/assets/pet-testimonial-test.jpeg" alt="Pet Picture">
-				<p class="card-testimonial_title">Pet Name</p>
-				<p>"Quote from the client about Dr. Jeff's services!"</p>
-				<p>-- Name of the Pet Parent</p>
-			</div>
-
-			<div class="card-testimonial">
-				<img src="/assets/pet-testimonial-test.jpeg" alt="Pet Picture">
-				<p class="card-testimonial_title">Pet Name</p>
-				<p>"Quote from the client about Dr. Jeff's services!"</p>
-				<p>-- Name of the Pet Parent</p>
-			</div>
-
-			<div class="card-testimonial">
-				<img src="/assets/pet-testimonial-test.jpeg" alt="Pet Picture">
-				<p class="card-testimonial_title">Pet Name</p>
-				<p>"Quote from the client about Dr. Jeff's services!"</p>
-				<p>-- Name of the Pet Parent</p>
-			</div>
 		</div>
 </section>
