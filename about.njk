@@ -8,11 +8,12 @@ meta-des: Dr. Jeffrey Levy, DVM, CVA, known to his clients as “Dr. Jeff,” pr
 	<!-- About Section -->
 	<section class="about">
 		<div class="">
-			<img class="no-steal about-img" src="/assets/dr-jeff-with-pet.png" alt="Picture of Jeff"/>
+			<img class="no-steal about-img" src="{{aboutData.img}}" alt="Picture of Jeff"/>
 		</div>
 		<div class="about-des">
 			<h2>About</h2>
-			<p>Dr. Jeffrey Levy, DVM, CVA, known to his clients as “Dr. Jeff,” provides caring, in-home veterinary visits in the New York City area using both conventional and holistic medical techniques. His focus is on specialized care and pain management through acupuncture, rehabilitation, and wellness practices.</p>
-			<p>He is a certified veterinary acupuncturist (IVAS), a Reiki practitioner, and was trained in veterinary rehabilitation at the University of Tennessee. He serves as the official veterinary acupuncturist of the International Cat Show and is an official veterinarian of the Westminster Kennel Club Show. As an adjunct professor at Mississippi State University’s veterinary college, he is training the next generation of veterinarians and regularly advises governors, senators and other government officials on animal health issues. He’s been providing home veterinary care since 1997.</p>
+			{%- for item in aboutData.des -%}
+			<p>{{item | markdown | safe}}</p>
+			{%- endfor -%}
 		</div>
 	</section>

@@ -11,7 +11,7 @@ publish_mode: editorial_workflow
 media_folder: "assets/uploads" # Media files will be stored in the repo under images/uploads
 
 #Preview Links
-show_preview_links: true
+show_preview_links: false
 
 #Brand Logo
 logo_url: https://housecallvetnyc.netlify.app/assets/hcvnyc-icon.svg
@@ -31,3 +31,13 @@ collections:
       - {label: "Published Date", name: "date", widget: "datetime"}
       - {label: "Excerpt", name: "excerpt", widget: "markdown"}
       - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "pages"
+  - label: "Pages"
+    files:
+      - label: "About Page"
+        name: "aboutData"
+        file: "_data/aboutData.json"
+        fields:
+          - {label: "About Image", name: "img", widget: "image"}
+          - {label: "About Description", name: "des", widget: "list", summary: "Paragraph", field: {label: Paragraph, name: paragraph, widget: markdown}, allow_add: true}
