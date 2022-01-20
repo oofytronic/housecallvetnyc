@@ -35,9 +35,19 @@ collections:
   - label: "Pages"
     name: "pages"
     files:
+      - label: "Home Page"
+        name: "homeData"
+        file: "_data/homeData.json"
+        fields:
+          - {label: "Home Hero Paragraphs", name: "hero", widget: "list", summary: "Paragraph", field: {label: Paragraph, name: paragraph, widget: markdown}, allow_add: true}
       - label: "About Page"
         name: "aboutData"
         file: "_data/aboutData.json"
         fields:
           - {label: "About Image", name: "img", widget: "image"}
-          - {label: "About Description", name: "des", widget: "list", summary: "Paragraph", field: {label: Paragraph, name: paragraph, widget: markdown}, allow_add: true}
+          - {label: "About Paragraphs", name: "des", widget: "list", summary: "Paragraph", field: {label: Paragraph, name: paragraph, widget: markdown}, allow_add: true}
+      - label: "Testimonials Page"
+        name: "testimonialsData"
+        file: "_data/testimonialsData.json"
+        fields:
+          - {label: "Testimonials", name: "testimonials", widget: "list", summary: "Testimonial", fields: {label: "Testimonial Image", name: "img", widget: "image"}, {label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}, allow_add: true}

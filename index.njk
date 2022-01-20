@@ -7,8 +7,9 @@ meta-des: Dr. Jeffrey Levy, DVM, CVA, known to his clients as “Dr. Jeff,” pr
 	<header class="hero">
 		<div class="hero-text">
 			<h1>Dr. Jeffrey Levy, DVM, CVA</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium reprehenderit consequatur ipsam debitis facilis dolorem in! Amet est, autem magni fuga, cupiditate molestias ipsum? Est adipisci veniam vitae nobis, soluta.</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda delectus magni nam animi hic in, possimus ducimus, numquam! Delectus, non.</p>
+			{%- for item in homeData.hero -%}
+			<p>{{item | markdown | safe}}</p>
+			{%- endfor -%}
 			<a class="button_main" href="/contact">Contact Me</a>
 		</div>
 		<img class="no-steal hero-photo" src="/assets/dr-jeff-website-main-photo.png" alt="Picture of Jeff"/>
