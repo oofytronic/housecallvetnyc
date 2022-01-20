@@ -53,7 +53,7 @@ collections:
           - label: "Testimonials"
             name: "testimonials"
             widget: "list"
-            summary: "Testimonials"
+            summary: "Testimonial"
             fields:
               - {label: "Testimonial Image", name: "img", widget: "image"}
               - {label: Quote, name: quote, widget: string}
