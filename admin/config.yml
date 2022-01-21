@@ -73,3 +73,4 @@ collections:
               - {label: Image, name: img, widget: image}
               - {label: Title, name: title, widget: string}
               - {label: "Paragraphs", name: "des", widget: "list", summary: "Paragraph", field: {label: Paragraph, name: paragraph, widget: markdown}, allow_add: true}
+            allow_add: false
