@@ -427,7 +427,7 @@ a {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-end;
 	gap: 1rem;
 }
 
@@ -445,6 +445,7 @@ a {
 	border: 2px solid var(--brand-light);
 	border-radius: 10px;
 	max-height: 300px;
+	max-width: 400px;
 }
 
 .card-testimonial_title {
@@ -479,6 +480,8 @@ a {
 	background: var(--brand-light);
 	color: var(--brand-dark);
 	border-radius: var(--rad);
+	overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .post-card {
@@ -488,6 +491,10 @@ a {
 
 .post-card:hover {
 	box-shadow: 5px 5px 5px var(--brand-secondary);
+}
+
+.post-card-title {
+	font-size: 30px;
 }
 
 .post-card-image {
@@ -924,6 +931,7 @@ footer a:hover, footer a:active {
 
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
 @media screen and (max-height: 450px) {
+
   .overlay a {font-size: 20px}
   .overlay .closebtn {
     font-size: 40px;
@@ -934,6 +942,9 @@ footer a:hover, footer a:active {
 
 @media only screen and (max-width: 900px) {
 	/* For mobile phones: */
+	p {
+		font-size: 1.4rem;
+	}
 	/* Navigation */
 	.nav {
 		display: grid;
@@ -991,6 +1002,7 @@ footer a:hover, footer a:active {
 
 	.hero-photo {
 		align-self: center;
+		width: 100%;
 	}
 
 	.hero-text {
@@ -1008,7 +1020,7 @@ footer a:hover, footer a:active {
 		justify-content: center;
 		align-items: center;
 		gap: 4rem;
-		padding: 4rem;
+		padding: 3rem;
 		text-align: center;
 	}
 
@@ -1028,6 +1040,7 @@ footer a:hover, footer a:active {
 	/* Clients Section */
 	.clients {
 		height: auto;
+		padding: 3rem;
 	}
 
 	.clients-title {
@@ -1084,7 +1097,7 @@ footer a:hover, footer a:active {
 		height: auto;
 		background: var(--brand-primary);
 		color: var(--brand-light);
-		padding: 4rem;
+		padding: 3rem;
 	}
 
 	.about-img {
@@ -1107,6 +1120,52 @@ footer a:hover, footer a:active {
 		max-width: 90%;
 		justify-self: center;
 	}
+
+	/* Services */
+	.services {
+		display: flex;
+		flex-direction: column;
+		min-height: 100vh;
+		background: var(--brand-primary);
+		color: var(--brand-light);
+		padding: 3rem;
+	}
+
+	.services-pairs {
+		display: flex;
+		flex-flow: column wrap;
+		gap: 10rem;
+	}
+
+	.section-pair {
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+	}
+
+	.pair-reverse {
+		flex-direction: column-reverse;
+	}
+
+	/* Testimonials */
+	.cards-testimonial {
+		gap: 2rem;
+	}
+
+	.card-testimonial img {
+		max-width: 300px;
+	}
+
+
+	/* Contact Sections */
+	.contact {
+		padding: 3rem;
+	}
+
+	.contact-form-des {
+		flex-direction: column;
+	}
+
 	
 	/* - Recent Posts */
 	.recent-posts {
@@ -1116,11 +1175,15 @@ footer a:hover, footer a:active {
 		width: 100vw;
 		overflow: hidden;
 	}
+
+	.page-title {
+		text-align: center;
+	}
 	
 	.posts-grid {
 		display: grid;
 		grid-template-columns: auto;
-		grid-auto-rows: minmax(500px,700px);
+		/*grid-auto-rows: minmax(500px,700px);*/
 		grid-gap: 3rem;
 		width: 95vw;
 		max-width: 95vw;
@@ -1130,7 +1193,7 @@ footer a:hover, footer a:active {
 	.post-card {
 		/*grid-area: card;*/
 		max-width: 400px;
-		max-height: 700px;
+		/*max-height: 700px;*/
 		justify-self: center;
 		overflow-y: hidden;
 	}
@@ -1277,18 +1340,6 @@ footer a:hover, footer a:active {
 
 	.social-button img {
 		max-height: 100%;
-	}
-
-	.face {
-		background: #3b5998;
-	}
-
-	.ig {
-		background: #E1306C;
-	}
-
-	.youtube {
-		background: #e52d27;
 	}
 }
 
