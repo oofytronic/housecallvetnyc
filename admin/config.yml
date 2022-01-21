@@ -72,4 +72,4 @@ collections:
               - {label: "Format", name: "format", widget: "hidden"}
               - {label: Image, name: img, widget: image}
               - {label: Title, name: title, widget: string}
-              - {label: Description, name: des, widget: markdown}
+              - {label: "Description", name: "des", widget: "list", summary: "Paragraph", field: {label: Paragraph, name: paragraph, widget: markdown}, allow_add: true}
