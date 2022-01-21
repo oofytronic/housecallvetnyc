@@ -475,6 +475,7 @@ a {
 .post-card {
 	flex: 1 100%;
 	width: 400px;
+	max-height: 450px;
 	overflow-y: hidden;
 	display: grid;
 	background: var(--brand-light);
@@ -1192,7 +1193,7 @@ footer a:hover, footer a:active {
 	
 	.post-card {
 		/*grid-area: card;*/
-		max-width: 400px;
+		max-width: 350px;
 		/*max-height: 700px;*/
 		justify-self: center;
 		overflow-y: hidden;
