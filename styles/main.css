@@ -973,6 +973,7 @@ footer a:hover, footer a:active {
 		justify-self: end;
 		align-self: center;
 		cursor: pointer;
+		margin-right: 3rem;
 	}
 
 	.hamburger .line {
@@ -1021,7 +1022,7 @@ footer a:hover, footer a:active {
 		justify-content: center;
 		align-items: center;
 		gap: 4rem;
-		padding: 3rem;
+		padding: 10rem 3rem;
 		text-align: center;
 	}
 
@@ -1041,7 +1042,7 @@ footer a:hover, footer a:active {
 	/* Clients Section */
 	.clients {
 		height: auto;
-		padding: 3rem;
+		padding: 10rem 3rem;
 	}
 
 	.clients-title {
@@ -1098,7 +1099,7 @@ footer a:hover, footer a:active {
 		height: auto;
 		background: var(--brand-primary);
 		color: var(--brand-light);
-		padding: 3rem;
+		padding: 6rem 3rem;
 	}
 
 	.about-img {
@@ -1129,7 +1130,7 @@ footer a:hover, footer a:active {
 		min-height: 100vh;
 		background: var(--brand-primary);
 		color: var(--brand-light);
-		padding: 3rem;
+		padding: 6rem 3rem;
 	}
 
 	.services-pairs {
@@ -1149,6 +1150,10 @@ footer a:hover, footer a:active {
 	}
 
 	/* Testimonials */
+	.testimonials {
+		padding: 6rem 3rem;
+	}
+
 	.cards-testimonial {
 		gap: 2rem;
 	}
@@ -1312,6 +1317,7 @@ footer a:hover, footer a:active {
 	.logo {
 		width: 40px;
 		padding: 0;
+		display: none;
 	}
 
 	footer a {

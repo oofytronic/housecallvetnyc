@@ -8,30 +8,28 @@ meta-des: Dr. Jeffrey Levy, DVM, CVA, known to his clients as “Dr. Jeff,” pr
 <section class="services">
 	<h2 class="page-title">Services</h2>
 	<div class="services-pairs">
+		{%- for item in servicesData.services -%}
+		{% if item.format === "regular" %}
 		<div class="section-pair">
-			<img class="no-steal about-img" src="/assets/dr-jeff-acupuncture-picture-2.jpg" alt="Picture of Jeff"/>
+			<img class="no-steal about-img" src="{{ item.img }}" alt="Picture of Jeff"/>
 			<div class="about-des">
-				<h3>Acupuncture</h3>
-				<p>Dr. Jeff is a certified veterinary acupuncturist (CVA). If your pet is suffering from a long-term, debilitating illness such as arthritis or chronic kidney disease, or is experiencing short-term pain from an injury, acupuncture may the right course of treatment. Acupuncture has also been used to help treat allergies, asthma, skin problems and digestive problems in pets.</p>
-				<p>According to the International Veterinary Acupuncture Society (IVAS), acupuncture is one of the safest forms of medical treatment for animals when it is administered by a properly trained veterinarian. Acupuncture uses needles to stimulate specific points on the body that promote healing. It is an effective, non-invasive therapy that can be used to treat many types of chronic, painful or non-responsive diseases or injuries.</p>
+				<h3>{{ item.title }}</h3>
+				{%- for des in item.des -%}
+				<p>{{des | markdown | safe}}</p>
+				{%- endfor -%}
 			</div>
 		</div>
-
+		{% elif item.format === "reverse" %}
 		<div class="section-pair pair-reverse">
 			<div class="about-des">
-				<h3>Holistic Therapies</h3>
-				<p>Holistic veterinary medicine considers all aspects of an animal’s life and employs all of the practitioner’s senses, as well as a combination of conventional and alternative treatments. When holistic veterinarians see a pet, besides giving it a comprehensive physical examination, they want to find out about its behaviors, medical and dietary history, and its environment, including diet, emotional stresses, and other factors.  (Excerpted from American Holistic Veterinary Medical Association)</p>
-				<p>Holistic therapies might include acupuncture [link to acupuncture page], herbal treatments, Reiki healing, or behavioral modification, for example. They can be used in conjunction with traditional medical techniques to supplement a treatment plan (called complimentary medicine). At times, holistic therapies may be used alone on an elderly or debilitated pet when surgery or harsh medication might not be advisable. Dr. Jeff will guide you in the selection of the appropriate course of treatment in consultation with your primary veterinarian or veterinary surgeon.</p>
+				<h3>{{ item.title }}</h3>
+				{%- for des in item.des -%}
+				<p>{{des | markdown | safe}}</p>
+				{%- endfor -%}
 			</div>
 			<img class="no-steal about-img" src="/assets/dr-jeff-holistic-picture.jpg" alt="Picture of Jeff"/>
 		</div>
-
-		<div class="section-pair">
-			<img class="no-steal about-img" src="/assets/dr-jeff-rehab-picture.jpg" alt="Picture of Jeff"/>
-			<div class="about-des">
-				<h3>Rehabilitation</h3>
-				<p>Like the use of physical rehabilitation with humans, animal rehabilitation uses controlled activity to help your pet recover faster from injury or to increase mobility and quality of life for older pets.  To avoid muscle loss and joint stiffening, it’s ideal to begin rehabilitation soon after surgery, and in-home rehabilitation can be an ideal way to begin. Ask your primary veterinarian or veterinary surgeon for their recommendation and Dr. Jeff can work with them to coordinate your pet’s post-surgical care.</p>
-			</div>
-		</div>
+		{% endif %}
+		{%- endfor -%}
 	</div>
 </section>

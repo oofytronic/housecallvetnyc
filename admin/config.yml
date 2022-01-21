@@ -60,3 +60,16 @@ collections:
               - {label: Quote, name: quote, widget: string}
               - {label: Author, name: author, widget: string}
             allow_add: true
+      - label: "Services Page"
+        name: "servicesData"
+        file: "_data/servicesData.json"
+        fields:
+          - label: "Services"
+            name: "services"
+            widget: "list"
+            summary: "Service"
+            fields:
+              - {label: "Format", name: "format", widget: "hidden"}
+              - {label: Image, name: img, widget: image}
+              - {label: Title, name: title, widget: string}
+              - {label: Description, name: des, widget: markdown}
