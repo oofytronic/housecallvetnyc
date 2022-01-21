@@ -1,14 +1,13 @@
-/* Mobile Menu Transition
-
 const hamburger = document.querySelector('.hamburger');
 const navMain = document.querySelector('.nav-main');
 
 
 hamburger.addEventListener("click", () => {
-	navMain.classList.toggle('open');
+	// navMain.classList.toggle('open');
+  openNav();
 }); 
 
-*/
+
 
 /* Open */
 function openNav() {

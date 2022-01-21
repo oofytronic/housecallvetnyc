@@ -15,6 +15,7 @@ body {
 	color: #fff;
 	-webkit-font-smoothing: antialiased;
 	scroll-behavior: smooth;
+	box-sizing: border-box;
 }
 
 
