@@ -2,6 +2,10 @@
 layout: layouts/layout.njk
 title: Home | House Call Vet NYC
 meta-des: Dr. Jeffrey Levy, DVM, CVA, known to his clients as “Dr. Jeff,” provides caring, in-home veterinary visits in the New York City area using both conventional and holistic medical techniques. His focus is on specialized care and pain management through acupuncture, rehabilitation, and wellness practices.
+pagination:
+  data: testimonialsData.testimonials
+  size: 3
+  reverse: true
 ---
 
 	<header class="hero">
@@ -34,34 +38,24 @@ meta-des: Dr. Jeffrey Levy, DVM, CVA, known to his clients as “Dr. Jeff,” pr
 		</div>
 	
 		<div class="media_description">
-			<h2>From the NYTimes</h2>
+			<h3><strong>From</strong></h3>
+			<img src="/assets/nyt-logo_white.svg" alt="NYTimes" class="logo_nyt">
 			<p>"Dr. Levy, a certified veterinary acupuncturist, assists with rehabilitation and pain management for pets whose ownsers want to avoid medication or surgery."</p>
 			<a href="https://www.nytimes.com/2018/03/22/nyregion/with-a-metrocard-and-needles-a-vet-makes-house-calls.html" target="_blank" rel="noopener noreferrer" class="button_light">Read the Article</a>
 		</div>
 	</section>
 
 	<section class="clients">
-		<h2 class="clients-title">My Amazing Clients</h2>
+		<h2 class="clients-title">My Amazing Patients</h2>
 		<div class="cards-testimonial">
+			{%- for item in pagination.items -%}
 			<div class="card-testimonial">
-				<img src="/assets/pet-testimonial-test.jpeg" alt="Pet Picture">
-				<p class="card-testimonial_title">Pet Name</p>
-				<p>"Quote from the client about Dr. Jeff's services!"</p>
-				<p>-- Name of the Pet Parent</p>
+				<img src="{{item.img}}" alt="Pet Picture">
+				<p class="card-testimonial_title">{{item.name}}</p>
+				<p>{{item.quote}}</p>
+				<p>-- {{item.author}}</p>
 			</div>
-
-			<div class="card-testimonial">
-				<img src="/assets/pet-testimonial-test.jpeg" alt="Pet Picture">
-				<p class="card-testimonial_title">Pet Name</p>
-				<p>"Quote from the client about Dr. Jeff's services!"</p>
-				<p>-- Name of the Pet Parent</p>
-			</div>
-
-			<div class="card-testimonial">
-				<img src="/assets/pet-testimonial-test.jpeg" alt="Pet Picture">
-				<p class="card-testimonial_title">Pet Name</p>
-				<p>"Quote from the client about Dr. Jeff's services!"</p>
-				<p>-- Name of the Pet Parent</p>
+			{%- endfor -%}
 			</div>
 		</div>
 	</section>

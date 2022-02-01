@@ -26,7 +26,7 @@
 	--brand-dark: #3E434A;
 	--brand-light: #F4F3F4;
 	--brand-primary: #2D355F;
-	--brand-secondary: #B4BCC8;
+	--brand-secondary: #a8b0c4;
 	--brand-tertiary: #E4E4E4;
 	--homebase: rgba(23, 126, 254, 1); /* Color for feathermode */
 
@@ -152,6 +152,10 @@ a {
 	margin-bottom: 4rem;
 }
 
+.logo_nyt {
+	max-width: 550px;
+}
+
 
 
 /* Header Styles */
@@ -171,6 +175,7 @@ a {
 .nav {
 	position: sticky;
 	top: 0;
+	z-index: 1000;
 	display: grid;
 	/*grid-template-columns: 30% 70%;*/
 	grid-template-areas:
@@ -282,7 +287,7 @@ a {
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
     opacity: 0;
-    transform: scale(1.5) rotate(10deg);
+    transform: scale(1.5) rotate(8deg);
     -webkit-animation: slowFade 24s infinite;
             animation: slowFade 24s infinite;
 }
@@ -332,7 +337,7 @@ a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 10rem;
+	gap: 6rem;
 	padding: 3rem;
 }
 
@@ -350,7 +355,7 @@ a {
 }
 
 .clients {
-	height: 70vh;
+	min-height: 70vh;
 	background: var(--brand-secondary);
 	background-image: url('/assets/dr-jeff-pet-wallpaper.svg');
 	background-size: cover;
@@ -605,8 +610,8 @@ a {
 	display: flex;
 	gap: 2rem;
 	justify-content: center;
-	align-items: center;
-	height: 100vh;
+	align-items: start;
+	min-height: 100vh;
 	background: var(--brand-primary);
 	color: var(--brand-light);
 	padding: 4rem;
@@ -1245,7 +1250,7 @@ footer a:hover, footer a:active {
 		display: grid;
 		justify-content: center;
 		padding: 4rem 0;
-		width: 100vw;
+		max-width: 100vw;
 		overflow: hidden;
 	}
 
