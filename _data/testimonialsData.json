@@ -17,6 +17,30 @@
       "name": "Cupcake",
       "author": "Bonnie",
       "quote": "Cupcake is remarkably better!!! She is more affectionate and is “yowling” less after your “8 needles”. Can you imagine?"
+    },
+    {
+      "img": "/assets/uploads/testimonial_photo_4_munchkin.png",
+      "name": "Munchkin",
+      "quote": "Your work gave Munchkin and myself more time together- and in fact those last couple of months were nothing short of miraculous. He could not walk, let alone sit up on his own… yet in one session you had him trotting around the apartment by himself. Please know that you have profoundly affected Munchkin’s and my life- and for that I am forever grateful.",
+      "author": "Jamie"
+    },
+    {
+      "name": "Benjamin",
+      "author": "Jackie",
+      "quote": "Good news. Friday night after I had dinner with him in a nearby restaurant, he walked nonstop outside for one hour and 35min.  He did not take a break or sit down or have his legs cross or anything like that. Just continuous walking. It's amazing!",
+      "img": "/assets/uploads/testimonial_photo_5_benjamin.jpg"
+    },
+    {
+      "name": "Sunny",
+      "quote": "Sunshine Rae, part Great Dane, had ACL surgeries, arthritis in both front legs, disc problems and eventually an amputation. After an extensive online search I located Dr. Levy, who treated my pet for nearly five years. He was compassionate and intuitive, relieving her episodes of pain very quickly. Dr. Jeff, helped Sunny through innumerable medical crises, sessions of orthopedic rehabilitations and eventually through the end of life process. Thank you for everything, Dr. Jeff Levy- you were essential to my and Sunny’s existence…",
+      "author": "Sally",
+      "img": "/assets/uploads/testimonial_photo_6_sunny.jpg"
+    },
+    {
+      "quote": "I can’t say enough wonderful things about Dr. Levy. My 13 ½ year old English Bulldog, Tater Tot suffers from terrible arthritis in his hind legs and had a very hard time walking. I did research and found Dr. Levy online. Tater Tot received his first acupuncture treatment and INSTANTLY, we noticed improvement. My fiancé who was totally skeptical was shocked and is now a total believer. (He is even having his mother start acupuncture after seeing the transformation Tater has had!) The doormen in my building started commenting on how much better Tater Tot was walking (and they had no idea he was receiving treatment). We see Dr. Levy weekly and we all look forward to his visits. From gastrointestinal issues to a bout with pneumonia, any ailment Tater has had Dr. Levy has helped to improve. I believe with my whole heart that Dr. Levy’s treatments contribute greatly to Tater Tot’s overall wellbeing and comfort, and I cannot recommend him enough.",
+      "name": "Tater Tot",
+      "author": "Pet Parent",
+      "img": "/assets/uploads/testimonial_photo_7_tater-tot.jpg"
     }
   ]
 }
