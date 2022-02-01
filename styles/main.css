@@ -255,6 +255,7 @@ a {
 
 .hero {
 	height: 80vh;
+	width: 100vw;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -267,9 +268,11 @@ a {
     align-items: flex-start;
     background: #fff;
     width: 70%;
+    height: 80%;
     /*height: 100vh;*/
     overflow: hidden;
     position: relative;
+    border-radius: var(--rad);
 }
 .slowFade .slide img {
     position: absolute;
