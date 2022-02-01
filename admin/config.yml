@@ -14,7 +14,7 @@ media_folder: "assets/uploads" # Media files will be stored in the repo under im
 show_preview_links: false
 
 #Brand Logo
-logo_url: assets/hcvnyc-icon.svg
+logo_url: https://jeff-vet-test.netlify.app/assets/hcvnyc-icon.svg
 
 
 collections:
