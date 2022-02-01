@@ -493,7 +493,7 @@ a {
 .cards-testimonial {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: start;
 	gap: 1.5rem;
 }
