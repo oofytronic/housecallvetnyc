@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 h1 {
-	font-size: 4rem;
+	font-size: 3.75rem;
 	line-height: 1.5;
 }
 
@@ -258,11 +258,69 @@ a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 0 4rem;
+	gap: 1.5rem;
+	padding: 0 3rem;
+}
+
+.slowFade {
+    display: flex;
+    align-items: flex-start;
+    background: #fff;
+    width: 70%;
+    /*height: 100vh;*/
+    overflow: hidden;
+    position: relative;
+}
+.slowFade .slide img {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    background: #000;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    opacity: 0;
+    transform: scale(1.5) rotate(15deg);
+    -webkit-animation: slowFade 32s infinite;
+            animation: slowFade 32s infinite;
+}
+.slowFade .slide:nth-child(3) img {
+    -webkit-animation-delay: 8s;
+            animation-delay: 8s;
+}
+.slowFade .slide:nth-child(2) img {
+    -webkit-animation-delay: 16s;
+            animation-delay: 16s;
+}
+.slowFade .slide:nth-child(1) img {
+    -webkit-animation-delay: 24s;
+            animation-delay: 24s;
+}
+@keyframes slowFade {
+    25% {
+        opacity: 1;
+        transform: scale(1) rotate(0);
+    }
+    40% {
+        opacity: 0;
+    }
+}
+@-webkit-keyframes slowFade {
+    25% {
+        opacity: 1;
+        transform: scale(1) rotate(0);
+    }
+    40% {
+        opacity: 0;
+    }
 }
 
 .hero-photo {
-	align-self: flex-end;
+	height: 70%;
+	width: 60%;
+	object-fit: cover;
+	align-self: center;
+	border-radius: var(--rad);
 }
 
 .hero-text {
@@ -280,7 +338,7 @@ a {
 	justify-content: center;
 	align-items: center;
 	gap: 10rem;
-	padding: 4rem;
+	padding: 3rem;
 }
 
 .media_description {
@@ -308,7 +366,7 @@ a {
 	gap: 2rem;
 	justify-content: start;
 	align-items: center;
-	padding: 4rem;
+	padding: 3rem;
 }
 
 .clients-title {
@@ -323,7 +381,7 @@ a {
 	gap: 1rem;
 	justify-content: center;
 	align-items: center;
-	padding: 4rem;
+	padding: 3rem;
 }
 
 #contact-page {
@@ -1008,7 +1066,7 @@ footer a:hover, footer a:active {
 		justify-content: center;
 		align-items: center;
 		gap: 4rem;
-		padding: 4rem 4rem 0 4rem;
+		padding: 4rem;
 	}
 
 	.hero-photo {
