@@ -255,7 +255,7 @@ a {
 
 .hero {
 	height: 80vh;
-	width: 100vw;
+	max-width: 100vw;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -266,38 +266,37 @@ a {
 .slowFade {
     display: flex;
     align-items: flex-start;
-    background: #fff;
-    width: 70%;
+    width: 100%;
     height: 80%;
-    /*height: 100vh;*/
     overflow: hidden;
     position: relative;
     border-radius: var(--rad);
 }
 .slowFade .slide img {
     position: absolute;
-    min-width: 100%;
+    width: 100%;
     min-height: 100%;
+    object-fit: cover;
     height: auto;
-    background: #000;
+    /*background: #000;*/
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
     opacity: 0;
-    transform: scale(1.5) rotate(15deg);
-    -webkit-animation: slowFade 32s infinite;
-            animation: slowFade 32s infinite;
+    transform: scale(1.5) rotate(10deg);
+    -webkit-animation: slowFade 24s infinite;
+            animation: slowFade 24s infinite;
 }
 .slowFade .slide:nth-child(3) img {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+}
+.slowFade .slide:nth-child(2) img {
     -webkit-animation-delay: 8s;
             animation-delay: 8s;
 }
-.slowFade .slide:nth-child(2) img {
+.slowFade .slide:nth-child(1) img {
     -webkit-animation-delay: 16s;
             animation-delay: 16s;
-}
-.slowFade .slide:nth-child(1) img {
-    -webkit-animation-delay: 24s;
-            animation-delay: 24s;
 }
 @keyframes slowFade {
     25% {
@@ -318,19 +317,12 @@ a {
     }
 }
 
-.hero-photo {
-	height: 70%;
-	width: 60%;
-	object-fit: cover;
-	align-self: center;
-	border-radius: var(--rad);
-}
-
 .hero-text {
 	display: flex;
 	flex-direction: column;
 	justify-content: start;
 	align-items: start;
+	width: 50%;
 }
 
 .media {
@@ -1064,7 +1056,7 @@ footer a:hover, footer a:active {
 
 	/* Hero Content */
 	.hero {
-		height: auto;
+		/*min-height: 100vh;*/
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
@@ -1072,12 +1064,17 @@ footer a:hover, footer a:active {
 		padding: 4rem;
 	}
 
-	.hero-photo {
+	/*.hero-photo {
 		align-self: center;
 		width: 100%;
+	}*/
+
+	.slowFade {
+		height: 40%;
 	}
 
 	.hero-text {
+		width: 100%;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
