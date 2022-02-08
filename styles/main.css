@@ -460,6 +460,12 @@ a {
 	align-self: start;
 }
 
+.clients .button_main {
+	justify-self: start;
+	align-self: start;
+	margin: 0;
+}
+
 .contact {
 	height: 85vh;
 	display: flex;
