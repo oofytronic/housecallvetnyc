@@ -1429,6 +1429,10 @@ footer a:hover, footer a:active {
 
 	
 	/* - Recent Posts */
+	.slider::before, .slider::after {
+		display: none;
+	}
+
 	.recent-posts {
 		display: grid;
 		justify-content: center;
