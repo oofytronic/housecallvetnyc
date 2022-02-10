@@ -15,9 +15,8 @@ excerpt: >-
 
 
   This house call was for Harpo...
+image: /assets/uploads/on-the-go-1.jpg
 ---
-![Dr. Jeff walking out of the subway on his way to one of his pet patients](/assets/uploads/on-the-go-1.jpg "Dr. Jeff walking out of the subway on his way to one of his pet patients")
-
 Dr. Jeff Levy knocked gently on an apartment door on the Lower East Side of Manhattan on Tuesday afternoon.
 
 “I knock lightly because dogs can get upset if you knock loud, or with a cat, it might run under the bed,” said Dr. Levy, a veterinarian who specializes in acupuncture, exclusively by house call.
