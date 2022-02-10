@@ -139,13 +139,35 @@ a {
 	border-radius: var(--rad);
 	padding: 0.5rem 1rem;
 	margin-top: 1rem;
+	transition: background 0.5s;
 }
 
 .button_light:hover {
 	background: var(--brand-primary);
 	color: var(--brand-light);
 	border: solid 2px var(--brand-light);
+	transition: background 0.5s;
 }
+
+.button_secondary {
+	background: var(--brand-secondary);
+	color: var(--brand-light);
+	outline: none;
+	border: solid 2px var(--brand-light);
+	border-radius: var(--rad);
+	padding: 0.5rem 1rem;
+	margin-top: 1rem;
+	transition: background 0.5s;
+}
+
+.button_secondary:hover {
+	background: var(--brand-light);
+	color: var(--brand-secondary);
+	border: solid 2px var(--brand-light);
+	transition: background 0.5s;
+}
+
+
 
 .page-title {
 	color: var(--brand-light);
@@ -224,7 +246,7 @@ a {
 
 .nav-icon {
 	height: 80%;
-	width: 100%;
+	width: auto;
 	margin: 0;
 }
 
@@ -332,23 +354,31 @@ a {
     }
 }
 
+.hero-title {
+	font-size: 30px;
+}
+
 .hero-text {
+	align-self: flex-start;
 	display: flex;
 	flex-direction: column;
 	justify-content: start;
 	align-items: start;
 	width: 50%;
+	margin-top: 4rem;
 }
 
 .media {
-	height: 80vh;
+	min-height: 50vh;
 	background: var(--brand-primary);
 	color: var(--brand-light);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 6rem;
 	padding: 3rem;
+}
+
+.media-content {
+	display: flex;
+	gap: 2rem;
+	width: 100%;
 }
 
 .media_description {
@@ -359,8 +389,8 @@ a {
 }
 
 .media iframe {
-	width: 560px;
-	height: 315px;
+	width: 400px;
+	height: 100%;
 	border-radius: var(--rad);
 }
 
@@ -370,12 +400,16 @@ a {
 	width: 100vw;
 	display: flex;
 	background: var(--brand-primary);
-	padding-bottom: 4rem;
+	padding: 4rem 0;
 	overflow: hidden;
 	margin: auto;
 
 	--slider-width: 325px;
 	--slides: 24;
+}
+
+.slider-home {
+	background: var(--brand-light);
 }
 
 .slider::before, .slider::after {
@@ -384,6 +418,15 @@ a {
 	width: 150px;
 	height: 100%;
 	background: linear-gradient(to right, var(--brand-primary), rgba(255, 255,255, 0));
+	z-index: 2;
+}
+
+.slider-home::before, .slider-home::after {
+	content: '';
+	position: absolute;
+	width: 100px;
+	height: 100%;
+	background: linear-gradient(to right, var(--brand-light), rgba(255, 255,255, 0));
 	z-index: 2;
 }
 
@@ -453,6 +496,10 @@ a {
 	justify-content: start;
 	align-items: center;
 	padding: 3rem;
+}
+
+.clients a {
+	justify-self: end;
 }
 
 .clients-title {
@@ -595,10 +642,34 @@ a {
 	grid-auto-rows: auto;
 	justify-content: center;
 	align-items: center;
-	max-width: 300px;
+	width: 300px;
 	background: transparent;
 	color: var(--brand-light);
 	padding: 0.5rem;
+}
+
+.card-testimonial_story {
+	position: relative;
+	display: grid;
+	justify-content: center;
+}
+
+.card-testimonial_quote {
+	max-height: 100px;
+	width: 300px;
+	overflow: hidden;
+	margin-bottom: 2rem;
+}
+
+.max-height {
+	max-height: 100%;
+}
+
+.card-testimonial button {
+	width: 100%;
+	/*height: 25px;*/
+	position: absolute;
+	bottom: 0;
 }
 
 .card-testimonial img {
@@ -607,7 +678,7 @@ a {
 	border: 2px solid var(--brand-light);
 	border-radius: 10px;
 	height: 300px;
-	max-width: 350px;
+	max-width: 100%;
 	object-fit: cover;
 }
 
@@ -643,14 +714,12 @@ a {
 .post-card {
 	flex: 1 100%;
 	width: 400px;
-	max-height: 450px;
+	/*max-height: 450px;*/
 	overflow-y: hidden;
 	display: grid;
 	background: var(--brand-light);
 	color: var(--brand-dark);
 	border-radius: var(--rad);
-	overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 .post-card {
@@ -1188,7 +1257,7 @@ footer a:hover, footer a:active {
 	}
 
 	/* Media Section */
-	.media {
+	/*.media {
 		height: auto;
 		display: flex;
 		flex-direction: column;
@@ -1197,6 +1266,10 @@ footer a:hover, footer a:active {
 		gap: 4rem;
 		padding: 10rem 3rem;
 		text-align: center;
+	}*/
+	.media-content {
+		flex-direction: column;
+		justify-content: center;
 	}
 
 	.media_description {
@@ -1206,8 +1279,8 @@ footer a:hover, footer a:active {
 		align-items: center;
 	}
 
-	.media iframe {
-		width: 350px;
+	.media-content iframe {
+		width: 325px;
 		height: 200px;
 		border-radius: var(--rad);
 	}
@@ -1329,6 +1402,10 @@ footer a:hover, footer a:active {
 
 	.cards-testimonial {
 		gap: 2rem;
+	}
+
+	.card-testimonial_quote {
+		margin-bottom: 4rem;
 	}
 
 	.card-testimonial img {

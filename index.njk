@@ -10,7 +10,7 @@ pagination:
 
 	<header class="hero">
 		<div class="hero-text">
-			<h1>Dr. Jeffrey Levy, DVM, CVA</h1>
+			<h1 class="hero-title">Dr. Jeffrey Levy, DVM, CVA</h1>
 			{%- for item in homeData.hero -%}
 			<p>{{item | markdown | safe}}</p>
 			{%- endfor -%}
@@ -31,61 +31,27 @@ pagination:
 	</header>
 
 	<section class="media">
+		<h2>In the Media</h2>
+		<div class="media-content">
 		<div>
-			<h2>In the Media</h2>
-			<p>From Good Housekeeping</p>
+			<p><strong>From Good Housekeeping</strong></p>
 			<iframe src="https://www.youtube.com/embed/qJIt_QRPEPY" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</div>
 	
 		<div class="media_description">
-			<h3><strong>From</strong></h3>
+			<p><strong>As seen featured in:</strong></p>
 			<img src="/assets/nyt-logo_white.svg" alt="NYTimes" class="logo_nyt">
 			<p>"Dr. Levy, a certified veterinary acupuncturist, assists with rehabilitation and pain management for pets whose ownsers want to avoid medication or surgery."</p>
 			<a href="https://www.nytimes.com/2018/03/22/nyregion/with-a-metrocard-and-needles-a-vet-makes-house-calls.html" target="_blank" rel="noopener noreferrer" class="button_light">Read the Article</a>
 		</div>
 
-		<!-- <div class="slider">
-			<div class="slider-track">
-				<div class="slide">
-					<img src="/assets/plaque_1.jpg" alt="">
-				</div>
-				<div class="slide">
-					<img src="/assets/plaque_2.jpg" alt="">
-				</div>
-				<div class="slide">
-					<img src="/assets/plaque_3.jpg" alt="">
-				</div>
-				<div class="slide">
-					<img src="/assets/plaque_4.jpg" alt="">
-				</div>
-				<div class="slide">
-					<img src="/assets/plaque_5.jpg" alt="">
-				</div>
-				<div class="slide">
-					<img src="/assets/plaque_6.jpg" alt="">
-				</div>
-				<div class="slide">
-					<img src="/assets/plaque_7.jpg" alt="">
-				</div>
-				<div class="slide">
-					<img src="/assets/plaque_8.jpg" alt="">
-				</div>
-				<div class="slide">
-					<img src="/assets/plaque_9.jpg" alt="">
-				</div>
-				<div class="slide">
-					<img src="/assets/plaque_10.jpg" alt="">
-				</div>
-				<div class="slide">
-					<img src="/assets/plaque_11.jpg" alt="">
-				</div>
-				<div class="slide">
-					<img src="/assets/plaque_12.jpg" alt="">
-				</div>
-			</div>
-		</div> -->
+		<div>
+			<p><strong>Dr. Jeff talks at Harvard</strong></p>
+			<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/UH6W0Bh9Src" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+	</div>
 	</section>
-	<div class="slider">
+	<div class="slider slider-home">
 			<div class="slider-track">
 				<div class="slide">
 					<img src="/assets/plaque_1.jpg" alt="">
@@ -161,22 +127,23 @@ pagination:
 					<img src="/assets/plaque_12.jpg" alt="">
 				</div>
 			</div>
-		</div>
+	</div>
 
 	<section class="clients">
-		<h2 class="clients-title">My Amazing Patients</h2>
-		<a class="button_main" href="/testimonials">See More</a>
+		<h2 class="clients-title">My Amazing Patients!</h2>
 		<div class="cards-testimonial_home">
 			{%- for item in pagination.items -%}
 			<div class="card-testimonial">
 				<img src="{{item.img}}" alt="Pet Picture">
-				<p class="card-testimonial_title">{{item.name}}</p>
-				<p>{{item.quote}}</p>
-				<p>-- {{item.author}}</p>
+				<p class="card-testimonial_title">{{item.name}} and {{item.author}}</p>
+				<div class="card-testimonial_story">
+					<p class="card-testimonial_quote">{{item.quote}}</p>
+					<button class="card-testimonial_button button_secondary">Read More</button>
+				</div>
 			</div>
 			{%- endfor -%}
-			</div>
 		</div>
+		<a class="button_light" href="/testimonials">See More</a>
 	</section>
 
 	<section class="contact">
@@ -201,7 +168,7 @@ pagination:
 				<textarea name="message" id="" cols="30" rows="10" placeholder="Write me a message about you and your pet!" class="contact-form-subject"></textarea>
 			</label>
 			<div class="contact-form-links">
-				<a href="555-5555">Or Call Me</a>
+				<a href="tel:2124651667">Or Call Me!</a>
 				<button class="button_main">Submit</button>
 			</div>
 		</form>
