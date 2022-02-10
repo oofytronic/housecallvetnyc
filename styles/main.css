@@ -240,6 +240,8 @@ a {
 
 .nav-name-plate a {
 	height: 100%;
+	width: 100%;
+	object-fit: contain;
 	display: flex;
 	align-items: center;
 }
@@ -1185,7 +1187,7 @@ footer a:hover, footer a:active {
 	/* Navigation */
 	.nav {
 		display: grid;
-		grid-template-columns: 50% 50%;
+		grid-template-columns: 80% 20%;
 		grid-template-areas: 
 		"name-plate hamburger";
 		grid-gap: 0rem;
@@ -1200,7 +1202,7 @@ footer a:hover, footer a:active {
 	}
 
 	.nav-icon {
-		/*height: 90%;*/
+		/*max-height: 80%;*/
 	}
 	
 	.hamburger {
