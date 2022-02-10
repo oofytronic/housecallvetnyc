@@ -358,6 +358,7 @@ a {
 
 .hero-title {
 	font-size: 30px;
+	color: var(--brand-primary);
 }
 
 .hero-text {
