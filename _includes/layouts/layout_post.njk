@@ -16,18 +16,7 @@
 				<p class="post-date">{{ date | dateformat }}</p>
 			</div>
 			</div>
-
-			<!-- <div class="post-head">
-				<img src="{{ thumbnail }}" alt="{{ alt }}" class="post-head-image no-steal" />
-				<div class="post-info {{ colorback }}">
-
-					<div class="post-excerpt">
-
-						<p class="post-des">{{ excerpt }}</p>
-					</div>
-				</div>
-			</div> -->
-
+			<img src="{{ image }}" alt="{{ alt }}" class="post-head-image no-steal" />
 			<div class="post-body">
 				{{ content | safe }}
 			</div>
