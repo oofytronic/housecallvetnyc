@@ -14,7 +14,8 @@
 						<p class="vl">|</p>
 						<p class="post-card-date">{{ post.data.date | dateformat }}</p>
 					</div>
-					<p class="post-card-des">{%- if post.data.excerpt %}{{ post.data.excerpt }}{% else %}No Excerpt Available{% endif %}</p>
+					<img src="{{ post.data.image }}" alt="Post Photo" class="post-card-image">
+					<!-- <p class="post-card-des">{%- if post.data.excerpt %}{{ post.data.excerpt }}{% else %}No Excerpt Available{% endif %}</p> -->
 				</div>
 			</div>
 		</div></a>
