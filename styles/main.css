@@ -447,7 +447,7 @@ a {
 .slider .slider-track {
 	display: flex;
 	width: calc(var(--slider-width) * 24);
-	animation: scroll 30s infinite linear;
+	animation: scroll 50s infinite linear;
 }
 
 .slider-track .slide {
