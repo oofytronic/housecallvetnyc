@@ -1270,6 +1270,10 @@ footer a:hover, footer a:active {
 		padding: 10rem 3rem;
 		text-align: center;
 	}*/
+
+	.media h2 {
+		align-self: center;
+	}
 	.media-content {
 		flex-direction: column;
 		justify-content: center;
@@ -1281,6 +1285,14 @@ footer a:hover, footer a:active {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+	}
+
+	.video-1 {
+		order: 1;
+	}
+
+	.video-2 {
+		order: 2;
 	}
 
 	.media-content iframe {
@@ -1298,8 +1310,9 @@ footer a:hover, footer a:active {
 	.clients-title {
 		justify-self: center;
 		align-self: center;
+		/*font-size: 30px;*/
+		text-align: center;
 	}
-	
 	
 	/* Headline Styles */
 	.headline-content {
