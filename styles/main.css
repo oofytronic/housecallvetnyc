@@ -1282,6 +1282,10 @@ footer a:hover, footer a:active {
 		align-items: center;
 	}
 
+	.logo_nyt {
+		height: 36px;
+	}
+
 	.media_description {
 		display: flex;
 		flex-direction: column;
