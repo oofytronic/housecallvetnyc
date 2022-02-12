@@ -28,6 +28,7 @@
 	--brand-primary: #2D355F;
 	--brand-secondary: #a8b0c4;
 	--brand-tertiary: #E4E4E4;
+	--brand-accent: #8A1758;
 	--homebase: rgba(23, 126, 254, 1); /* Color for feathermode */
 
 	--rad: 10px;
@@ -126,14 +127,15 @@ a {
 }
 
 .button_main:hover {
-	background: var(--brand-light);
-	color: var(--brand-primary);
-	border: solid 2px var(--brand-primary);
+	background: var(--brand-accent);
+	color: var(--brand-light);
+	border: solid 2px var(--brand-accent);
+	transition: 0.5s;
 }
 
 .button_light {
 	background: var(--brand-light);
-	color: var(--brand-primary);
+	color: var(--brand-accent);
 	outline: none;
 	border: solid 2px var(--brand-light);
 	border-radius: var(--rad);
@@ -143,10 +145,10 @@ a {
 }
 
 .button_light:hover {
-	background: var(--brand-primary);
+	background: var(--brand-accent);
 	color: var(--brand-light);
-	border: solid 2px var(--brand-light);
-	transition: background 0.5s;
+	border: solid 2px var(--brand-accent);
+	transition: 0.5s;
 }
 
 .button_secondary {
@@ -256,12 +258,12 @@ a {
 	font-weight: bold;
 	text-decoration: none;
 	cursor: pointer;
-	color: var(--brand-dark);
+	color: var(--brand-primary);
 }
 
 .nav-button:hover, .nav-button:focus {
 	text-decoration: underline;
-	color: var(--brand-primary);
+	color: var(--brand-accent);
 }
 
 .hamburger {
