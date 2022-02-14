@@ -443,7 +443,7 @@ a {
 .slider-home .slider-track {
 	display: flex;
 	width: calc(var(--slider-width) * 46);
-	animation: scroll 60s infinite linear;
+	animation: scroll 40s infinite linear;
 }
 
 .slider-news .slider-track {
