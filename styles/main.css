@@ -403,12 +403,14 @@ a {
 .slider-home {
 	background: var(--brand-light);
 	--slider-width: 400px;
-	--slides: 46;
+	--slides-duplicate: 54;
+	--slides-actual: 27;
 }
 
 .slider-news {
 	--slider-width: 325px;
-	--slides: 24;
+	--slides-duplicate: 24;
+	--slides-actual: 12;
 }
 
 .slider-news::before, .slider-news::after {
@@ -442,13 +444,13 @@ a {
 
 .slider-home .slider-track {
 	display: flex;
-	width: calc(var(--slider-width) * 46);
+	width: calc(var(--slider-width) * var(--slides-duplicate));
 	animation: scroll 40s infinite linear;
 }
 
 .slider-news .slider-track {
 	display: flex;
-	width: calc(var(--slider-width) * 24);
+	width: calc(var(--slider-width) * var(--slides-duplicate));
 	animation: scroll 50s infinite linear;
 }
 
@@ -492,7 +494,7 @@ a {
 	}
 
 	100%{
-		transform: translateX(calc(-1 * var(--slider-width) * 12));
+		transform: translateX(calc(-1 * var(--slider-width) * var(--slides-actual)));
 	}
 }
 
