@@ -445,7 +445,7 @@ a {
 .slider-home .slider-track {
 	display: flex;
 	width: calc(var(--slider-width) * var(--slides-duplicate));
-	animation: scroll 40s infinite linear;
+	animation: scroll 60s infinite linear;
 }
 
 .slider-news .slider-track {
