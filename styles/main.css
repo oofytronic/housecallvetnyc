@@ -403,8 +403,8 @@ a {
 .slider-home {
 	background: var(--brand-light);
 	--slider-width: 400px;
-	--slides-duplicate: 54;
-	--slides-actual: 27;
+	--slides-duplicate: 56;
+	--slides-actual: 28;
 }
 
 .slider-news {
