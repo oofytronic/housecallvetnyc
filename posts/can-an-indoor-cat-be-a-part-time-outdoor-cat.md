@@ -12,6 +12,7 @@ excerpt: >-
 
 
   It’s no secret that the mean streets—or even fields—hold many dangers for an outdoor cat on its own. An indoor cat doesn’t face the increasing number of cars, toxins, parasites and instances of animal cruelty that a roaming outdoor cat does. That’s why feline experts usually urge owners to keep their cats indoors. But that’s not always easy...
+image: /assets/uploads/kote-puerto-so5nsydodxw-unsplash.jpg
 ---
 An indoor cat generally has a simpler life than its free-range feline counterpart.
 
