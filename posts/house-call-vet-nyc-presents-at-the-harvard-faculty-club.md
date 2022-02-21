@@ -10,5 +10,6 @@ excerpt: From Brooklyn to Italy to Harvard – Dr. Jeffrey Levy is one of the fe
   internationally certified veterinary acupuncturists in the US. His fascinating
   practice includes traveling all over NYC visiting canine and feline patients
   in their home environments. Watch his presentation...
+image: /assets/uploads/benjamin-rascoe-gn8ab9pxjn8-unsplash.jpg
 ---
 From Brooklyn to Italy to Harvard – Dr. Jeffrey Levy is one of the few internationally certified veterinary acupuncturists in the US. His fascinating practice includes traveling all over NYC visiting canine and feline patients in their home environments. Watch his presentation to an audience of holistic practitioners at the Harvard Faculty Club. Music by Dr. Jeffrey Levy and his Pet-Rox band. www.petroxmusic.com
