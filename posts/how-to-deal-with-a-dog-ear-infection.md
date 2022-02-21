@@ -8,6 +8,7 @@ title: How to Deal with a Dog Ear Infection
 date: 2015-08-13T21:07:22.830Z
 excerpt: Is Fido scratching at his ears more than usual? Has Spike started
   tossing her head a lot? Your pup might have an ear infection.
+image: /assets/uploads/pauline-loroy-u3af7hgusrk-unsplash.jpg
 ---
 Is Fido scratching at his ears more than usual? Has Spike started tossing her head a lot? Your pup might have an ear infection.
 
