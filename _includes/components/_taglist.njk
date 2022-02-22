@@ -2,7 +2,7 @@
 	<h2 class="page-title">Pet News</h2>
 	<div class="posts-grid">
 	{# {% set taglist = collections[ tag ] %} #}
-	{% for post in posts | reverse %}
+	{% for post in posts %}
 		<!-- Post TWO -->
 		<a href="{{ post.url }}"><div class="post-card {{ post.data.color }}">
 			<!-- <img src="{{ post.data.thumbnail }}" alt="" class="post-card-image no-steal" /> -->
