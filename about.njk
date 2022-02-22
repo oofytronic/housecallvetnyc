@@ -7,13 +7,32 @@ meta-des: Dr. Jeffrey Levy, DVM, CVA, known to his clients as “Dr. Jeff,” pr
 	<!-- Page Layout -->
 	<!-- About Section -->
 	<section class="about">
-		<div class="">
-			<img class="no-steal about-img" src="{{aboutData.img}}" alt="Picture of Jeff"/>
-		</div>
 		<div class="about-des">
 			<h2>About</h2>
-			{%- for item in aboutData.des -%}
-			<p>{{item | markdown | safe}}</p>
-			{%- endfor -%}
+			<div class="services-pairs">
+				{%- for item in aboutData.segments -%}
+				{% if item.format === "regular" %}
+				<div class="section-pair">
+					<img class="no-steal service-img" src="{{ item.img }}" alt="Picture of Jeff"/>
+					<div class="service-des">
+						<h3>{{ item.title }}</h3>
+						{%- for des in item.des -%}
+						<p>{{des | markdown | safe}}</p>
+						{%- endfor -%}
+					</div>
+				</div>
+				{% elif item.format === "reverse" %}
+				<div class="section-pair pair-reverse">
+					<div class="service-des">
+						<h3>{{ item.title }}</h3>
+						{%- for des in item.des -%}
+						<p>{{des | markdown | safe}}</p>
+						{%- endfor -%}
+					</div>
+					<img class="no-steal service-img" src="{{ item.img }}" alt="Picture of Jeff"/>
+				</div>
+				{% endif %}
+				{%- endfor -%}
+			</div>
 		</div>
 	</section>

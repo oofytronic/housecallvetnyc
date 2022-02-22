@@ -45,8 +45,16 @@ collections:
         name: "aboutData"
         file: "_data/aboutData.json"
         fields:
-          - {label: "About Image", name: "img", widget: "image"}
-          - {label: "About Paragraphs", name: "des", widget: "list", summary: "Paragraph", field: {label: Paragraph, name: paragraph, widget: markdown}, allow_add: true}
+          - label: "About Sections"
+            name: "sections"
+            widget: "list"
+            summary: "Sections"
+            fields:
+              - {label: "Format", name: "format", widget: "hidden"}
+              - {label: Image, name: img, widget: image}
+              - {label: Title, name: title, widget: string}
+              - {label: "Paragraphs", name: "des", widget: "list", summary: "Paragraph", field: {label: Paragraph, name: paragraph, widget: markdown}, allow_add: true}
+            allow_add: false
       - label: "Testimonials Page"
         name: "testimonialsData"
         file: "_data/testimonialsData.json"
