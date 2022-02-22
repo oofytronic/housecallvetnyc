@@ -11,8 +11,8 @@ meta-des: Dr. Jeffrey Levy, DVM, CVA, known to his clients as “Dr. Jeff,” pr
 		{%- for item in servicesData.services -%}
 		{% if item.format === "regular" %}
 		<div class="section-pair">
-			<img class="no-steal about-img" src="{{ item.img }}" alt="Picture of Jeff"/>
-			<div class="about-des">
+			<img class="no-steal service-img" src="{{ item.img }}" alt="Picture of Jeff"/>
+			<div class="service-des">
 				<h3>{{ item.title }}</h3>
 				{%- for des in item.des -%}
 				<p>{{des | markdown | safe}}</p>
@@ -21,13 +21,13 @@ meta-des: Dr. Jeffrey Levy, DVM, CVA, known to his clients as “Dr. Jeff,” pr
 		</div>
 		{% elif item.format === "reverse" %}
 		<div class="section-pair pair-reverse">
-			<div class="about-des">
+			<div class="service-des">
 				<h3>{{ item.title }}</h3>
 				{%- for des in item.des -%}
 				<p>{{des | markdown | safe}}</p>
 				{%- endfor -%}
 			</div>
-			<img class="no-steal about-img" src="/assets/dr-jeff-holistic-picture.jpg" alt="Picture of Jeff"/>
+			<img class="no-steal service-img" src="{{ item.img }}" alt="Picture of Jeff"/>
 		</div>
 		{% endif %}
 		{%- endfor -%}
