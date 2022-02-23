@@ -207,7 +207,7 @@ a {
 
 .nav-back {
 	background: var(--brand-light);
-	border-bottom: 1px solid var(--brand-tertiary);
+	border-bottom: 2px solid var(--brand-primary);
 }
 
 .nav-trans {
@@ -403,8 +403,8 @@ a {
 .slider-home {
 	background: var(--brand-light);
 	--slider-width: 400px;
-	--slides-duplicate: 56;
-	--slides-actual: 28;
+	--slides-duplicate: 72;
+	--slides-actual: 36;
 }
 
 .slider-news {
@@ -445,7 +445,7 @@ a {
 .slider-home .slider-track {
 	display: flex;
 	width: calc(var(--slider-width) * var(--slides-duplicate));
-	animation: scroll 60s infinite linear;
+	animation: scroll 80s infinite linear;
 }
 
 .slider-news .slider-track {
@@ -540,8 +540,16 @@ a {
 	padding: 3rem;
 }
 
+.contact h2 {
+	color: var(--brand-primary);
+}
+
 #contact-page {
 	background: var(--brand-primary);
+	color: var(--brand-light);
+}
+
+#contact-page h2 {
 	color: var(--brand-light);
 }
 
@@ -714,6 +722,7 @@ a {
 	/*height: 25px;*/
 	position: absolute;
 	bottom: 0;
+	border: 2px solid var(--brand-light);
 }
 
 .card-testimonial img {
