@@ -549,6 +549,7 @@ a {
 	display: flex;
 	flex-direction: column;
 	margin-top: 1rem;
+	width: 50%;
 }
 
 .contact-form-des {
@@ -1481,12 +1482,17 @@ footer a:hover, footer a:active {
 		padding: 3rem;
 	}
 
+	.contact-form {
+		width: 90%;
+	}
+
 	.contact-form-des {
 		flex-direction: column;
 	}
 
 	.contact-form-links {
 		align-items: flex-end;
+		align-items: end;
 	}
 
 	
