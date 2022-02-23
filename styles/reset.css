@@ -19,6 +19,6 @@ body {
 }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
 	:root { font: 10px/1 san-serif} /* html */
 }
