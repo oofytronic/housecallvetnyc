@@ -581,7 +581,7 @@ a {
 .contact-form-links {
 	display: flex;
 	gap: 1rem;
-	justify-content: end;
+	justify-content: flex-end;
 	align-items: center;
 }
 
@@ -1510,8 +1510,7 @@ footer a:hover, footer a:active {
 	}
 
 	.contact-form-links {
-		align-items: flex-end;
-		align-items: end;
+		align-items: center;
 	}
 
 	
