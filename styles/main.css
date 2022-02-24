@@ -1258,6 +1258,7 @@ footer a:hover, footer a:active {
 
 	.nav-icon {
 		max-height: 65px;
+		height: 80%;
 	}
 	
 	.hamburger {
