@@ -413,8 +413,8 @@ a {
 
 .slider-news {
 	--slider-width: 325px;
-	--slides-duplicate: 24;
-	--slides-actual: 12;
+	--slides-duplicate: 28;
+	--slides-actual: 14;
 }
 
 /*.slider-news::before, .slider-news::after {
