@@ -396,7 +396,7 @@ a {
 .slider {
 	position: relative;
 	min-height: 40vh;
-	width: 100vw;
+	/*width: 100vw;*/
 	display: flex;
 	background: var(--brand-primary);
 	padding: 4rem 0;
