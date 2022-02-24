@@ -525,7 +525,7 @@ a {
 
 .clients-title {
 	justify-self: start;
-	align-self: start;
+	align-self: center;
 }
 
 .clients .button_main {
