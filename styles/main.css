@@ -182,7 +182,7 @@ a {
 }
 
 .logo_nyt {
-	max-width: 550px;
+	max-width: 400px;
 }
 
 
@@ -360,6 +360,10 @@ a {
 	margin-top: 4rem;
 }
 
+.media-subtitle {
+	font-size: 18px;
+}
+
 .media {
 	display: flex;
 	flex-direction: column;
@@ -450,7 +454,7 @@ a {
 .slider-home .slider-track {
 	display: flex;
 	width: calc(var(--slider-width) * var(--slides-duplicate));
-	animation: scroll 80s infinite linear;
+	animation: scroll 115s infinite linear;
 }
 
 .slider-news .slider-track {
@@ -1357,6 +1361,10 @@ footer a:hover, footer a:active {
 
 	.video-2 {
 		order: 2;
+	}
+
+	.media-subtitle {
+		font-size: 16px;
 	}
 
 	.media-content iframe {
