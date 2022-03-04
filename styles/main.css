@@ -600,6 +600,7 @@ a {
 	padding: 0.5rem;
 	border-radius: 10px;
 	background: var(--brand-tertiary);
+	max-width: 385px;
 }
 
 .contact-form > * {
