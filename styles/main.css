@@ -412,14 +412,14 @@ a {
 .slider-home {
 	background: var(--brand-light);
 	--slider-width: 400px;
-	--slides-duplicate: 74;
-	--slides-actual: 38;
+	--slides-duplicate: 80;
+	--slides-actual: 40;
 }
 
 .slider-news {
 	--slider-width: 325px;
-	--slides-duplicate: 34;
-	--slides-actual: 17;
+	--slides-duplicate: 44;
+	--slides-actual: 22;
 }
 
 /*.slider-news::before, .slider-news::after {
